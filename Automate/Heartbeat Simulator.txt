@@ -1,0 +1,5 @@
+Simulates a heartbeat using the phone's vibrator.
+
+li pali e kalama pilin kepeken ilo pi tawa nasa pi ilo luka sina.
+
+Имитирует сердцебиение вибратором телефона.

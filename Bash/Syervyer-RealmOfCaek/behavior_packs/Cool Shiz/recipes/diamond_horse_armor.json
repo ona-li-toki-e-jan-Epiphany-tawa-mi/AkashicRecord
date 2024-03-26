@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.2",
+	
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "coolshiz:diamond_horse_armor"
+		},
+		"tags": [ "crafting_table" ],
+		
+		"pattern": [
+			"D D",
+			"DLD",
+			"D D"
+		],
+		"key": {
+			"D": {
+				"item": "minecraft:diamond"
+			},
+			"L": {
+				"item": "minecraft:leather"
+			}
+		},
+		
+		"result": {
+			"item": "minecraft:diamond_horse_armor"
+		}
+	}
+}

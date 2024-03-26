@@ -1,0 +1,43 @@
+name:                multiply-by-n
+version:             0.1.0
+github:              "ona-li-toki-e-jan-Epiphany-tawa-mi/multiply-by-n"
+license:             MIT
+author:              "ona li toki e jan Epiphany tawa mi"
+maintainer:          "darklorddudeal.deaddear@gmail.com"
+copyright:           "2023 ona li toki e jan Epiphany tawa mi"
+
+extra-source-files:
+- README.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/ona-li-toki-e-jan-Epiphany-tawa-mi/multiply-by-n#readme>
+
+dependencies:
+- base  >= 4.7  && < 5
+- gloss >= 1.13 && < 1.14
+
+ghc-options:
+- -Wall
+- -Wcompat
+- -Widentities
+- -Wincomplete-record-updates
+- -Wincomplete-uni-patterns
+- -Wmissing-export-lists
+- -Wmissing-home-modules
+- -Wpartial-fields
+- -Wredundant-constraints
+
+executables:
+  multiply-by-n-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N

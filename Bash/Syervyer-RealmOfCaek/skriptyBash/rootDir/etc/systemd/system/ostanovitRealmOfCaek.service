@@ -1,0 +1,10 @@
+[Unit]
+Description=Останавливает сервер Майнкрафта Realm Of Caek при выключении компьютера
+Before=shutdown.target reboot.target halt.target
+
+[Service]
+ExecStart="/home/lotus/Realm Of Caek/skriptyBash/ostanovitSyervyer.sh"
+TimeoutStartSec=0
+
+[Install]
+WantedBy=shutdown.target reboot.target halt.target

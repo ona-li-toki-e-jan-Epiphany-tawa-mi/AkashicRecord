@@ -1,0 +1,3 @@
+function voidpack1_13:blackhole/blackholegraphics
+function voidpack1_13:blackhole/blackholeattraction
+function voidpack1_13:blackhole/blackholeattraction

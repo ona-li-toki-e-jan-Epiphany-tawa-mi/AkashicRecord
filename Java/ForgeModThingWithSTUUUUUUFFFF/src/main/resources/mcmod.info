@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "abhorrentideas",
+    "name": "Abhorrent Ideas",
+    "description": "stuff",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Epiphany"
+    ],
+    "credits": "Whoever comes up with these things.",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

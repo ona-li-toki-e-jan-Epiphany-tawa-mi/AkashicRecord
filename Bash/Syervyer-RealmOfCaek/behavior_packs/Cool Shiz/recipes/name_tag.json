@@ -1,0 +1,26 @@
+{
+	"format_version": "1.17.2",
+	
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "coolshiz:name_tag"
+		},
+		"tags": [ "crafting_table" ],
+		
+		"ingredients": [
+            {
+                "item": "minecraft:paper"
+            },
+			{
+                "item": "minecraft:string"
+            },
+			{
+                "item": "minecraft:ink_sac"
+            }
+        ],
+		
+		"result": {
+			"item": "minecraft:name_tag"
+		}
+	}
+}

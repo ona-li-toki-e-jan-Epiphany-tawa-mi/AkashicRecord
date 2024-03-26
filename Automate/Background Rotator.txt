@@ -1,0 +1,8 @@
+[Requires premium]
+Swaps out the backgrounds everyday. This will generate a folder in Pictures called SwappableBackgrounds. Put your backgrounds in there and run the program again. Ta-da~, your backgrounds will start to change.
+
+[ijo Premium li wile tawa ni]
+tenpo suno li ante la li pana e sitelen ante tawa sitelen pi ilo luka sina. lipu ni li pali e poki SwappableBackgrounds lon poki Pictures. o pana e sitelen sina lon ni o open e lipu ni. a a a~, tenpo ni la sitelen sina li ante.
+
+[Требуется Премиум]
+Меняет каждый день обои. Это создаст папку в Pictures, называющаяся SwappableBackgrounds. Вставляйте свои обои туда. Та-да~, обои начнут меняться.

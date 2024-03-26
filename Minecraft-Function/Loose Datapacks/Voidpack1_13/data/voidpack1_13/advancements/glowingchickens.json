@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Let There Be Light!",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Make a Chicken glow",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "glowchicken": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "voidpack1_13:root"
+}

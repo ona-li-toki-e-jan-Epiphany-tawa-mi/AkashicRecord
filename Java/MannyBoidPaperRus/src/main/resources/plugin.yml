@@ -1,0 +1,19 @@
+name: PaperThinger
+version: ${project.version}
+main: mannyboidpaperrus.paperthinger.PaperThinger
+api-version: 1.13
+authors: [Epiphany]
+description: Ong Ing Gong Ong Ing Gong Ong Ing Gogn
+commands:
+  bind:
+    description: Binds a command to a held debug stick.
+    usage: /<command> <other command> [args...]
+  cgive:
+    description: Gives custom items that have been shoved into the game.
+    usage: /<command> <targets> <custom item> [count]
+  recursion:
+    description: "§6Description: Description: Description: Description: Description: Description: ..."
+    usage: /<command>
+  toggleGravity:
+    description: Toggles gravity for selected mobs.
+    usage: /<command> <targets>

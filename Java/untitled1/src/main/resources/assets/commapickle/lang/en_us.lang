@@ -1,0 +1,5 @@
+﻿
+commands.commapickle.missingArguments=Usage: /commapickle <module> [arguments ...]
+commands.commapickle.assistedMovement.missingArguments=Usage: /commapickle assistedMovement <enable|disable> OR /commapickle assistedMovement <nodule> [arguments ...]
+commands.commapickle.assistedMovement.stepAssist.missingArguments=Usage: /commapickle assistedMovement stepAssist <enable|disable>
+commands.commapickle.assistedMovement.sanicSpeed.missingArguments=Usage: /commapickle assistedMovement sanicSpeed <enable|disable|set> [speed factor]

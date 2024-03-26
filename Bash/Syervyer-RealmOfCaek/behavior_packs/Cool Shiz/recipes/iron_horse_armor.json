@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.2",
+	
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "coolshiz:iron_horse_armor"
+		},
+		"tags": [ "crafting_table" ],
+		
+		"pattern": [
+			"I I",
+			"ILI",
+			"I I"
+		],
+		"key": {
+			"I": {
+				"item": "minecraft:iron_ingot"
+			},
+			"L": {
+				"item": "minecraft:leather"
+			}
+		},
+		
+		"result": {
+			"item": "minecraft:iron_horse_armor"
+		}
+	}
+}

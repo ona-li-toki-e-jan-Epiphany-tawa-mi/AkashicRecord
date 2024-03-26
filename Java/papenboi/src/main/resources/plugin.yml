@@ -1,0 +1,10 @@
+name: Weebd
+version: ${project.version}
+main: papermache.weebd.Weebd
+api-version: 1.13
+authors: [Epiphany]
+description: aaaaaaaaaaaaaa
+commands:
+  shift:
+    description: Shifts oneself to another dimension.
+    usage: /shift (dimension)

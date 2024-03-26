@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>You Know What Time it is</title>
+	  <link rel="stylesheet" type="text/css" href="bfi.css">
+   </head>
+   
+   <body>
+      <textarea id="srcCod"></textarea>
+      
+      <button id="intrpret" type="button" onclick="preInitialization();">Precompile Code</button>
+      <textarea id="cmpildCod" disabled="disabled"></textarea>
+      
+      <div id="timCntrl">
+         Execution Delay: 
+         <input type="number" id="dly">
+         <button id="stDly" type="button" onclick="changeIntervalTime();">Set Delay</button>
+      </div>
+      
+      <div id="memryGrd">
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+         <div class="memryGrdElem">0</div>
+      </div>
+      
+      <div id="interp">
+         <button id="run" type="button" onclick="start();">Run Interpreter</button>
+         <button id="stop" type="button" onclick="stop();">Stop Interpreter</button>
+         <button id="step" type="button" onclick="runStep();">Step Once</button>
+         <button id="reset" type="button" onclick="reset();">Reset Interpreter</button>
+      </div>
+      
+      <div id="outptbts">
+         <button id="up" type="button" onclick="sizeUp()">\/</button>
+         <button id="down" type="button" onclick="sizeDown()">/\</button>
+      </div>   
+      
+      <textarea id="outpt" disabled="disabled"></textarea>
+      
+      <div id="currInstrct">
+         Current Instruction: _
+      </div>
+	  
+	  <script src="bfi.js"></script>
+   </body>
+</html>

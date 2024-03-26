@@ -1,0 +1,19 @@
+<<
+	-> n <<
+		IF n 0 <=
+		THEN
+			0
+		ELSE
+			0
+			1
+			0 n 1 -
+			FOR i
+				DUP2 +
+				3 ROLL
+				1 DROPN
+			NEXT
+			1 ROLL
+			1 DROPN
+		END
+	>>
+>>

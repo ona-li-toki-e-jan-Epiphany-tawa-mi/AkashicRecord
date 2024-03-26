@@ -1,0 +1,67 @@
+<<
+	IF DEPTH 2 >
+	THEN
+		DEPTH -> d <<
+			1 d 2 -
+			FOR i
+				d ROLL
+			NEXT
+			d 2 - DROPN
+		>>
+	END
+	<< 
+		-> m n <<
+			IF m 0 ==
+			THEN
+				n 1 +
+				0
+			ELSE
+				IF m 0 > n 0 == AND
+				THEN
+					m 1 -
+					1
+					1
+				ELSE
+					IF m 0 > n 0 > AND
+					THEN
+						m 1 -
+						m 
+						n 1 -
+						2
+					END
+				END
+			END
+		>>
+	>> -> AKERMANN <<
+		1 WHILE 1 ==
+		REPEAT
+			AKERMANN EVAL -> r <<
+				IF r 0 ==
+				THEN
+					IF DEPTH 1 >
+					THEN
+						1
+					ELSE
+						0
+					END
+				ELSE
+					IF r 1 ==
+					THEN
+						1
+					ELSE
+						IF r 2 ==
+						THEN
+							AKERMANN EVAL
+							1 DROPN
+							1
+						END
+					END
+				END
+			>>
+		END
+	>>
+	0 4
+	FOR i
+		1400 .1 BEEP
+	NEXT
+>>

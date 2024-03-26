@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "What's That Smoke?",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "You are a strange, strange little pig",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:tnt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findexplosivepig": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "voidpack1_13:root"
+}

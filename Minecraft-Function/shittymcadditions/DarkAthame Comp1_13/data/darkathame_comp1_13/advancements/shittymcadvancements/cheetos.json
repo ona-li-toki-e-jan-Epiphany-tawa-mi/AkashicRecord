@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Super Stuck",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "I'll just have a couple more...",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:dried_kelp"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cheetoeat": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "darkathame_comp1_13:shittymcadvancements/root"
+}

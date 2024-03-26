@@ -1,0 +1,1 @@
+execute as @e run data merge entity @s {NoAI:0,Invulnerable:0}

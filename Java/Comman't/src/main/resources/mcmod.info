@@ -1,0 +1,16 @@
+[
+    {
+        "modid": "LLL",
+        "name": "LLL",
+        "description": "Random things",
+        "version": "${version}",
+        "mcversion": "${mcversion}",
+        "url": "",
+        "updateUrl": "",
+        "authorList": ["Epiphany"],
+        "credits": "",
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": []
+    }
+]

@@ -1,0 +1,146 @@
+body {
+   background-color: #011a27;
+}
+
+#srcCod {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+   resize: none;
+   
+   border: 1px solid #f0810f;
+   background-color: #063852;
+   color: #e6df44;
+}
+
+#intrpret {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   transform:translate(0px,20px);
+   
+   border: 1px solid #f0810f;
+   background-color: #063852;
+   color: #e6df44;
+   
+   transition-duration: 0.4s;
+}
+
+#intrpret:hover {
+   border: 3px solid #063852;
+   background-color: #f0810f;
+   color: #011a27;
+}
+
+#cmpildCod {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+   resize: none;
+   transform:translate(0px, 40px);
+   
+   border: 1px solid #f0810f;
+   background-color: #00324b;
+   color: #d9d33d;
+}
+
+#timCntrl {
+   text-align: center;
+   transform:translate(0px, 60px);
+  
+   color: #e6df44;
+}
+
+#dly, #stDly {
+   border: 1px solid #f0810f;
+   background-color: #063852;
+   color: #e6df44;
+   
+   transition-duration: 0.4s;
+}
+
+#stDly:hover {
+   border: 3px solid #063852;
+   background-color: #f0810f;
+   color: #011a27;
+}
+
+#memryGrd {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+   transform:translate(0px, 80px);
+   width: 80%;
+   
+   display: grid;
+   grid-template-columns: 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333% 3.333%;
+}
+
+.memryGrdElem {
+   text-align: center;
+   
+   border: 1px solid #f0810f;
+   background-color: #063852;
+   color: #e6df44;
+}
+
+#interp {
+   text-align: center;
+   transform:translate(0px,100px);
+}
+
+#run, #stop, #step, #reset {
+   border: 1px solid #f0810f;
+   background-color: #063852;
+   color: #e6df44;
+   
+   transition-duration: 0.4s;
+}
+
+#run:hover, #stop:hover, #step:hover, #reset:hover {
+   border: 3px solid #063852;
+   background-color: #f0810f;
+   color: #011a27;
+}
+
+#outptbts {
+   text-align: center;
+   transform:translate(0px,120px);
+}
+
+#outpt {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+   resize: none;
+   transform:translate(0px,140px);
+   
+   border: 1px solid #f0810f;
+   background-color: #063852;
+   color: #e6df44;
+}
+
+#up, #down {
+   border: 1px solid #f0810f;
+   background-color: #063852;
+   color: #e6df44;
+   
+   transition-duration: 0.4s;
+}
+
+#up:hover, #down:hover {
+   border: 3px solid #063852;
+   background-color: #f0810f;
+   color: #011a27;
+}
+
+#currInstrct {
+   text-align: center;
+   transform:translate(0px, 160px);
+   
+   color: #e6df44;
+}

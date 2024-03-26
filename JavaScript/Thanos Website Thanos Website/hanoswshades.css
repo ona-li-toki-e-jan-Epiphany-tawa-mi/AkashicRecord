@@ -1,0 +1,55 @@
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+/* Thanos needs a wet, sloppy kiss uwu */
+#than {
+   width: 50%;
+}
+
+.schmol {
+   margin: auto;
+   height: 20px;
+   background: #ffffff;
+}
+
+.bodyy {
+   margin: auto;
+   height: 200px;
+   background: #000000;
+   align-content: center;
+}
+
+#cancer {
+  background-color: #4a4447;
+  border: none;
+  color: #4CAF50;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font: sans-serif
+  transition-duration: 0.4s;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+
+#cancer:hover {
+  background-color: #4CAF50; 
+  color: #4a4447;
+  width: 60%;
+  height: 60%;
+  position: relative;
+  top: 20%;
+  left: 20%;
+}
+
+

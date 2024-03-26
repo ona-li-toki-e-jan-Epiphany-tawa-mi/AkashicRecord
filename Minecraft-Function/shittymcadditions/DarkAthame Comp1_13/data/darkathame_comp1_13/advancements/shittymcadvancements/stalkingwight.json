@@ -1,0 +1,30 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "See-Through",
+            "color": "dark_purple",
+            "bold": false
+        },
+        "description": {
+            "text": "Survive the stalking Wight",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "livepastwight": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 17
+    },
+    "parent": "darkathame_comp1_13:shittymcadvancements/root"
+}

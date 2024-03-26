@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.2",
+	
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "coolshiz:saddle"
+		},
+		"tags": [ "crafting_table" ],
+		
+		"pattern": [
+			"L L",
+			"LLL",
+			"l l"
+		],
+		"key": {
+			"L": {
+				"item": "minecraft:leather"
+			},
+			"l": {
+				"item": "minecraft:lead"
+			}
+		},
+		
+		"result": {
+			"item": "minecraft:saddle"
+		}
+	}
+}

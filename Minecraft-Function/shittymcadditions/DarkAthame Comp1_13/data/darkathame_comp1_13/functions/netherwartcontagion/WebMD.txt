@@ -1,0 +1,20 @@
+The Netherwart Contagion Begins Either By Standing In Or Holding Some Of The Warts For Extended Periods Of Time.
+It Can Be Transfered To Other Close-By Players.
+It Will Progress Over A 744000 Tick Period (31 Minecraft Days).
+During The Inital Period The Infecion Will Progressivly Slow Down The Player.
+A Side Effect Of The Warts On The Skin Is In A Increased State Of Fortility.
+Slight Fire Resistance Insues At 465000-651000 Ticks (19.375-27.125 Days Infected) Giving 6s (120 Ticks) Of Invulnrability To Fire, Warts Recuperate After 2 Minutes (2400 Ticks).
+The Warts Will Reach Peak Severity At 558000-651000 Ticks (21.25-27.125 Minecraft Days) And Subside Quickly Thereafter.
+Warts May Peel Off Into The Inventory During The Reconcile Of An Infected's Heatlth.
+The Infected Player Will Become Nauseated For When Warts Peel Off At The Reconcile Period.
+Any Death Quickly Halts The Infection In It's Entirety.
+Although, Upon Death Those That Are Infected Will Release What Is The Equivalent Of A Sporecloud Upon Death.
+Said "Sporecloud" Is 15x As Infectious As The Warts Themselves, And Carries Over The Original Stage Of Infection The Infected Once Had.
+
+From u/smernald
+Called "Nether warts are now contagious"
+
+Uses:
+netherwartcontagion.json
+spreadnetherwarts.json
+survivenetherwarts.json

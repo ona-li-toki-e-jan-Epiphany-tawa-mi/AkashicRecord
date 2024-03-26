@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Host Privileges",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Outlast the Nether Warts infection and become immune",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:white_bed"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "surviveinfection": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "voidpack1_13:netherwartcontaigion"
+}

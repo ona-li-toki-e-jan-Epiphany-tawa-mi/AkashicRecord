@@ -1,0 +1,13 @@
+name: Gang
+version: ${project.version}
+main: me.trial.gang.Gang
+api-version: 1.13
+commands:
+  tornado:
+    description: despacito
+    usage: /tornado
+  floss:
+    description: Do the floss!
+    usage: /floss
+depend:
+  - ProtocolLib

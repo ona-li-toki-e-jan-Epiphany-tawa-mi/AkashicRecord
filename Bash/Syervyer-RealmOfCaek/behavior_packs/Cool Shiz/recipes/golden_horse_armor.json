@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.2",
+	
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "coolshiz:golden_horse_armor"
+		},
+		"tags": [ "crafting_table" ],
+		
+		"pattern": [
+			"G G",
+			"GLG",
+			"G G"
+		],
+		"key": {
+			"G": {
+				"item": "minecraft:gold_ingot"
+			},
+			"L": {
+				"item": "minecraft:leather"
+			}
+		},
+		
+		"result": {
+			"item": "minecraft:golden_horse_armor"
+		}
+	}
+}

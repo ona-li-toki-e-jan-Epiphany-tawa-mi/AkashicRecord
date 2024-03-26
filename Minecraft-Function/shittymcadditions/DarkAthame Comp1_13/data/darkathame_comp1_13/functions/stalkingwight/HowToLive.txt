@@ -1,0 +1,22 @@
+The Wight, It Comes In The Night To Fill You With Blight.
+You Cannot Fight The Wight, Death Reigns Till The End Of Night.
+
+(No Sleep)
+10th Day, Strangly It Seems Phantoms Have Disappeared.
+12th Day, A Strange Ghostly Apparition Appears.
+15th, The True Monster Of The Night Is Awoken.
+17th, And To The Champion, The Spoils.
+
+It Will Be Gone At Day Unless It Is Hunting.
+If It Is Awake At Dawn It Starts To Lack In Speed.
+Sleep At Any Point Resets The Clock.
+Surviving Till The Seventeenth Day Of No Sleep Resets The Clock.
+Survival Of The Seventeen Days Rewards The Champion With A Cloak Of The Wight.
+
+From u/Endshulker
+Called "Special mob after many days of no sleep (replace phantoms)"
+
+Note: The Op Asked For Somethin Spoopy, And A Dullahan Would Be Pretty Good. However, With The Way It Stalks, Looks, Is, It's Much Better As A Wight, Isn't That Wight?
+
+Uses:
+stalkingwight.json

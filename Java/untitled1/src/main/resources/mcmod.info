@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "commapickle",
+    "name": "Comma Pickle",
+    "description": "An AI that can take over for the player.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Epiphany"
+    ],
+    "credits": "Thanks forge dudes and dudetts for making forge",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "bedrock_roof_position": -20,
+  "bedrock_floor_position": -20,
+  "sea_level": 0,
+  "disable_mob_generation": true,
+
+  "default_block": {
+    "Name": "minecraft:stone",
+    "Properties": {
+      "axis": "y"
+    }
+  },
+  "default_fluid": {
+    "Name": "minecraft:warped_hyphae",
+    "Properties": {
+      "axis": "y"
+    }
+  },
+
+  "structures": {
+    "stronghold": {
+      "distance": 0,
+      "count": 0,
+      "spread": 0
+    },
+
+    "structures": {}
+  },
+
+  "noise": {
+    "height": 256,
+    "size_horizontal": 1,
+    "size_vertical": 4,
+    "density_factor": -0.5,
+    "density_offset": 0,
+    "simplex_surface_noise": true,
+    "amplified": true,
+
+    "sampling": {
+      "xz_scale": 5,
+      "xz_factor": 1,
+      "y_scale": 15,
+      "y_factor": 1
+    },
+
+    "top_slide":{
+      "target": -8,
+      "size": 18,
+      "offset": 0
+    },
+    "bottom_slide":{
+      "target": -8,
+      "size": 3,
+      "offset": 0
+    }
+  }
+}

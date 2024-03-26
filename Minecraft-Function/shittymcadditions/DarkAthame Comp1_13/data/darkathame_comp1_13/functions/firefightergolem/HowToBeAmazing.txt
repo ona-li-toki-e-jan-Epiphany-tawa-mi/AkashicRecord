@@ -1,0 +1,12 @@
+The Wonderful Fire Fighter Golem, Your New Companion!
+Simply Place A Pumpkin On Top Of 2 Brewing Stands And Stand Atop It.
+Enjoy!
+
+From u/Mac_Rat
+Called "Add Brewing Stand Golems"
+
+Changed To: Add Fire Fighter Golems ;)
+
+Uses:
+brewing_golem.json
+firefightergolem.json

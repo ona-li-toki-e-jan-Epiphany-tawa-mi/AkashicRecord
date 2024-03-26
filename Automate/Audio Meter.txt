@@ -1,0 +1,5 @@
+Measures audio levels and prints out the highest reading.
+
+li alasa e nanpa kalama li pana e nanpa pi kalama suli suli tawa sina.
+
+Измеряет уровни звука и печатает наивысший.

@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Oh E' Gods!",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Hardest sword to get in the game",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "getdragonsword": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "darkathame_comp1_13:shittymcadvancements/root"
+}

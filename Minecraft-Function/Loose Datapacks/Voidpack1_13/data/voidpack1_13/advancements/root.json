@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Time For Some Chaos",
+            "color": "aqua",
+            "bold": false
+        },
+        "description": {
+            "text": "Download The Voidpack",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/coal_block.png"
+    },
+    "criteria": {
+        "exist": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

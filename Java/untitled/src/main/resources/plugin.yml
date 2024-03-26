@@ -1,0 +1,6 @@
+name: TimeAlignment
+version: ${project.version}
+main: timealignment.ttttow.Ttttow
+api-version: 1.13
+authors: [Epiphany]
+description: Aligns minecraft time to real life time

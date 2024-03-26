@@ -1,0 +1,38 @@
+/home/stariki/.ghcup/ghc/8.10.7/lib/ghc-8.10.7/include/ghcversion.h:
+  hash: c013160c9aa8a98f4638616496dce720c23ceca8ef9d6b3212b654642fbda5e4
+? /home/stariki/Proyekty/PROGRAMMY/pirate-radio/.stack-work/dist/x86_64-linux/Cabal-3.2.1.0/build/pirate-radio-exe/autogen/Paths_pirate_radio.hs
+: hash: 3261dd2a5dbaf96929463f527321de02c6b9b765f121ccabbbb6fad72fc8babc
+? /home/stariki/Proyekty/PROGRAMMY/pirate-radio/.stack-work/dist/x86_64-linux/Cabal-3.2.1.0/build/pirate-radio-exe/autogen/cabal_macros.h
+: hash: 731c1726a86d2a12758197843078404ef5997e72997f905afce6b1ef45e90a85
+/home/stariki/Proyekty/PROGRAMMY/pirate-radio/CHANGELOG.md:
+  hash: 2d68c5b88ac4872c603d66e65137074cfbf18827dfe756250942f8a213694071
+/home/stariki/Proyekty/PROGRAMMY/pirate-radio/README.md:
+  hash: fb667ffbb775b9d759aee70cde73d126f876a2e88cd89f4b662c002377bfe47a
+/home/stariki/Proyekty/PROGRAMMY/pirate-radio/app/Main.hs:
+  hash: 02ff03d3fd9afdf44027a565cf6852345bd129f873e29dacb3a769f80748fbfe
+/home/stariki/Proyekty/PROGRAMMY/pirate-radio/app/Web/RadioBrowser.hs:
+  hash: 14611430653f11c03db56d465f0301ef6c79b399a8bc6f190be1179f8afa0705
+/home/stariki/Proyekty/PROGRAMMY/pirate-radio/app/Web/RadioBrowser/RadioBrowser.hs:
+  hash: a25fb18c52cef9daa778cd57c657500e7c63b0d9902455c1cca68890ec86a198
+/home/stariki/Proyekty/PROGRAMMY/pirate-radio/app/Web/RadioBrowser/Types.hs:
+  hash: 3309b2802277b7f5e399eac16b124e34c36b41d94bd053ed7f5d530480a73365
+/home/stariki/Proyekty/PROGRAMMY/pirate-radio/app/Web/RadioBrowser/Types/Codec.hs:
+  hash: d8c3fd9788f29220a451ba189c64fc28a65c3705b8c10616cb91b50a9fbca571
+/home/stariki/Proyekty/PROGRAMMY/pirate-radio/app/Web/RadioBrowser/Types/Country.hs:
+  hash: b9115089026a603edba6d9478c7ecd0d2b9fdf878a3943505082a541032d3d68
+/home/stariki/Proyekty/PROGRAMMY/pirate-radio/app/Web/RadioBrowser/Types/Language.hs:
+  hash: ed7c039a52b8bddc365ee81277665148f1446c6115301462089ff685e2214a6f
+/home/stariki/Proyekty/PROGRAMMY/pirate-radio/app/Web/RadioBrowser/Types/SearchParameters.hs:
+  hash: c313778230e749148b8de5b9ea87d90aad740a18907c66d61f19eb6fa174127f
+/home/stariki/Proyekty/PROGRAMMY/pirate-radio/app/Web/RadioBrowser/Types/State.hs:
+  hash: 95e197942944a9026b0f2448ecdeab2a20df3ba86681b570d5c51b28805f290a
+/home/stariki/Proyekty/PROGRAMMY/pirate-radio/app/Web/RadioBrowser/Types/Station.hs:
+  hash: c55a1adee414d77de213d610e24676fc32044969e7256ecc4ff6099ce842cbf2
+/home/stariki/Proyekty/PROGRAMMY/pirate-radio/app/Web/RadioBrowser/Types/Tag.hs:
+  hash: ab7dde23dfa7929a28deb3a33fef97c0dd0beaccc1471326540ff22bdb33fcf5
+/home/stariki/Proyekty/PROGRAMMY/pirate-radio/package.yaml:
+  hash: 32e0f6ad441fa4d1397f3f3c3139dd0ee7f4df751537b740524c4857e3efe464
+/home/stariki/Proyekty/PROGRAMMY/pirate-radio/pirate-radio.cabal:
+  hash: d73d8885eceed878ffe10ced85a72385228e2cb9f213647def0548dc3c11943b
+/usr/include/stdc-predef.h:
+  hash: 64fdf694f7b3d51ec6c45c06dcb71ebbe9455742d3ea673012016668853d3bff

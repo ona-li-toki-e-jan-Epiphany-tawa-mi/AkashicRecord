@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Rotary_Encoder_Switch
+#
+DEF Rotary_Encoder_Switch SW 0 40 Y Y 1 F N
+F0 "SW" 0 500 50 H V C CNN
+F1 "Rotary_Encoder_Switch" 0 400 50 H V C CNN
+F2 "" 0 500 50 H I C CNN
+F3 "" 0 500 50 H I C CNN
+DRAW
+C 0 100 112 0 1 0 F
+S -250 300 250 -350 0 1 0 f
+S -150 250 150 -50 0 1 0 f
+X + ~ -100 -450 100 U 50 50 1 1 I
+X CLK ~ 200 -450 100 U 50 50 1 1 O
+X DT ~ 100 -450 100 U 50 50 1 1 O
+X GND ~ -200 -450 100 U 50 50 1 1 w
+X SW ~ 0 -450 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

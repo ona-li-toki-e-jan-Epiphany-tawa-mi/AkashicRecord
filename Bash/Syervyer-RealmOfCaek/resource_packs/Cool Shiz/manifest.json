@@ -1,0 +1,19 @@
+{
+	"format_version": 2,
+	
+	"header": {
+		"name": "Cool Shiz",
+		"description": "iz Epiphany. A bunch of cool stuff for the Realm of Caek server.",
+		"uuid": "37e96920-d70e-4d79-8255-6c5cff71fdda",
+		"version": [ 1, 0, 0 ],
+		"min_engine_version": [ 1, 16, 100 ]
+	},
+	
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "2f201a1a-4c65-4b9e-8539-34e07d4d9efd",
+			"version": [ 1, 0, 0 ]
+		}
+	]
+}

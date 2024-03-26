@@ -1,0 +1,7 @@
+Throw Glowstone At A Chicken To Make It Glow For 1 Minute
+
+From u/photokeith
+called "Suggestion - feeding chickens glowstone dust will make them glow."
+
+Uses:
+glowingchickens.json

@@ -1,0 +1,7 @@
+name: FishSlap
+version: ${project.version}
+main: me.darklorddudealt.fishslap.FishSlap
+api-version: 1.13
+depend: [ProtocolLib]
+authors: [Epiphany]
+description: Slap em' epic style with the best weapons in the game!

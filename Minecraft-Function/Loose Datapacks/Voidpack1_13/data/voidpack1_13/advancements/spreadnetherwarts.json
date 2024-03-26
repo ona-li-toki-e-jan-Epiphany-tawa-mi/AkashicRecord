@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Blankets Anyone?",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Directly infect another player with Nether Warts",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "infectother": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "voidpack1_13:netherwartcontaigion"
+}

@@ -1,0 +1,52 @@
+{
+  "language.code": "asc_hex",
+  "language.region": "43 79 62 65 72 20 53 70 61 63 65",
+  "language.name": "41 53 43 49 49 20 48 65 78 69 64 65 63 69 6d 61 6c",
+  
+  "command._common.entity.not_found": "45 6e 74 69 74 79 20 27 %s 27 20 63 61 6e 6e 6f 74 20 62 65 20 66 6f 75 6e 64",
+  
+  "command.setlocale.success": "53 75 63 63 65 73 73 66 75 6c 6c 79 20 73 65 74 20 79 6f 75 72 20 6c 6f 63 61 6c 65 20 74 6f 20 41 53 43 49 49 20 48 65 78 61 64 65 63 69 6d 61 6c",
+  "command.setlocale.already_set": "59 6f 75 72 20 6c 6f 63 61 6c 65 20 69 73 20 61 6c 72 65 61 64 79 20 73 65 74 20 74 6f 20 41 53 43 49 49 20 48 65 78 61 64 65 63 69 6d 61 6c",
+  "command.setlocale.not_found": "%s 69 73 20 6e 6f 74 20 61 20 6b 6e 6f 77 6e 20 6c 61 6e 67 75 61 67 65",
+  "command.setlocale.only_players": "4f 6e 6c 79 20 70 6c 61 79 65 72 73 20 63 61 6e 20 75 73 65 20 2f 73 65 74 6c 6f 63 61 6c 65",
+  
+  "command.capabilities.not_known": "27 %s 27 20 69 73 20 6e 6f 74 20 61 20 6b 6e 6f 77 6e 20 63 61 70 61 62 69 6c 69 74 79",
+  "command.capabilities.list.no_capabilities": "54 68 65 72 65 20 61 72 65 20 6e 6f 20 72 65 67 69 73 74 65 72 65 64 20 63 61 70 61 62 69 6c 69 74 69 65 73",
+  "command.capabilities.list.list_capabilities": "54 68 65 20 72 65 67 69 73 74 65 72 65 64 20 63 61 70 61 62 69 6c 69 74 79 28 69 65 73 29 20 69 73 2f 61 72 65 3a 20",
+  "command.capabilities.list.entity.no_capabilities": "%s 20 68 61 73 20 6e 6f 20 63 61 70 61 62 69 6c 69 74 69 65 73",
+  "command.capabilities.list.entity.list_capabilities": "%s 20 68 61 73 20 74 68 65 20 66 6f 6c 6c 6f 77 69 6e 67 20 63 61 70 61 62 69 6c 69 74 79 28 69 65 73 29 3a 20",
+  "command.capabilities.list.entities.no_capabilities": "%s 20 65 6e 74 69 74 69 65 73 20 68 61 76 65 20 6e 6f 20 63 61 70 61 62 69 6c 69 74 69 65 73",
+  "command.capabilities.list.entities.list_capabilities": "%s 20 65 6e 74 69 74 69 65 73 20 68 61 76 65 2c 20 6f 76 65 72 61 6c 6c 2c 20 74 68 65 20 66 6f 6c 6c 6f 77 69 6e 67 20 63 61 70 61 62 69 6c 69 74 79 28 69 65 73 29 3a 20",
+  "command.capabilities.debug.start.started": "44 65 62 75 67 67 69 6e 67 20 68 61 73 20 62 65 65 6e 20 73 74 61 72 74 65 64 2c 20 77 69 6c 6c 20 6c 6f 67 20 65 76 65 72 79 20 %s 20 74 69 63 6b 73",
+  "command.capabilities.debug.start.already_started": "54 68 65 20 63 61 70 61 62 69 6c 69 74 69 65 73 20 64 65 62 75 67 67 65 72 20 69 73 20 61 6c 72 65 61 64 79 20 73 74 61 72 74 65 64",
+  "command.capabilities.debug.stop.stopped": "44 65 62 75 67 67 69 6e 67 20 68 61 73 20 62 65 65 6e 20 73 74 6f 70 70 65 64",
+  "command.capabilities.debug.stop.already_stopped": "54 68 65 20 63 61 70 61 62 69 6c 69 74 69 65 73 20 64 65 62 75 67 67 65 72 20 69 73 20 61 6c 72 65 61 64 79 20 73 74 6f 70 70 65 64",
+  "command.capabilities.debug.setinterval.set": "44 65 62 75 67 20 69 6e 74 65 72 76 61 6c 20 73 75 63 63 65 73 73 66 75 6c 6c 79 20 73 65 74 20 74 6f 20 %s 20 74 69 63 6b 73",
+  "command.capabilities.debug.setinterval.invalid_number": "%s 20 6d 75 73 74 20 62 65 20 67 72 65 61 74 65 72 20 74 68 61 6e 20 30 21",
+  "command.capabilities.debug.setinterval.usage": "55 73 61 67 65 3a 20 /capabilities debug setInterval <69 6e 74 65 72 76 61 6c 54 69 6d 65>",
+  "command.capabilities.debug.usage": "55 73 61 67 65 3a 20 /capabilities debug (start|stop|dump|setInterval)",
+  "command.capabilities.assign.success": "41 73 73 69 67 6e 65 64 20 27 %s1 27 20 74 6f 20 %s2",
+  "command.capabilities.assign.already_set": "%s 20 61 6c 72 65 61 64 79 20 68 61 73 20 74 68 69 73 20 63 61 70 61 62 69 6c 69 74 79",
+  "command.capabilities.assign.success_multi": "41 73 73 69 67 6e 65 64 20 27 %s1 27 20 74 6f 20 %s2 20 65 6e 74 69 74 69 65 73",
+  "command.capabilities.assign.already_set_multi": "41 6c 6c 20 6f 66 20 74 68 65 20 73 65 6c 65 63 74 65 64 20 65 6e 74 69 74 69 65 73 20 61 6c 72 65 61 64 79 20 68 61 76 65 20 74 68 69 73 20 63 61 70 61 62 69 6c 69 74 79",
+  "command.capabilities.assign.usage": "55 73 61 67 65 3a 20 /capabilities assign <74 61 72 67 65 74 73> <63 61 70 61 62 69 6c 69 74 79>",
+  
+  "command.capabilities.revoke.has_none": "54 68 65 20 65 6e 74 69 74 79 20 68 61 73 20 6e 6f 20 63 61 70 61 62 69 6c 69 74 69 65 73",
+  "command.capabilities.revoke.removed_all": "52 65 76 6f 6b 65 64 20 61 6c 6c 20 63 61 70 61 62 69 6c 69 74 69 65 73 20 66 72 6f 6d 20 %s",
+  "command.capabilities.revoke.has_none_multi": "41 6c 6c 20 6f 66 20 74 68 65 20 73 65 6c 65 63 74 65 64 20 65 6e 74 69 74 69 65 73 20 68 61 76 65 20 6e 6f 20 63 61 70 61 62 69 6c 69 74 69 65 73",
+  "command.capabilities.revoke.removed_all_multi": "52 65 76 6f 6b 65 64 20 61 6c 6c 20 63 61 70 61 62 69 6c 69 74 69 65 73 20 66 72 6f 6d 20 %s 20 65 6e 74 69 74 69 65 73",
+  "command.capabilities.revoke.removed": "52 65 76 6f 6b 65 64 20 27 %s1 27 20 66 72 6f 6d 20 %s2",
+  "command.capabilities.revoke.does_not_have": "54 68 65 20 65 6e 74 69 74 79 20 64 6f 65 73 20 6e 6f 74 20 68 61 76 65 20 74 68 69 73 20 63 61 70 61 62 69 6c 69 74 79",
+  "command.capabilities.revoke.removed_multi": "52 65 76 6f 6b 65 64 20 27 %s1 27 20 66 72 6f 6d 20 %s2 65 6e 74 69 74 69 65 73",
+  "command.capabilities.revoke.does_not_have_multi": "4e 6f 6e 65 20 6f 66 20 74 68 65 20 65 6e 74 69 74 69 65 73 20 68 61 76 65 20 74 68 69 73 20 63 61 70 61 62 69 6c 69 74 79",
+  "command.capabilities.revoke.usage": "55 73 61 67 65 3a 20 /capabilities revoke <74 61 72 67 65 74 73> (<63 61 70 61 62 69 6c 69 74 79>|__all)",
+  
+  "capabilities.debugger.dump_start": "45 6e 74 69 74 79 20 51 75 65 75 65 20 64 75 6d 70 3a 20",
+  "capabilities.debugger.empty": " 20 4e 6f 74 68 69 6e 67 21",
+  "capabilities.debugger.dump_stop": "45 6e 64 20 6f 66 20 45 6e 74 69 74 79 20 51 75 65 75 65 20 64 75 6d 70",
+  
+  "capability.statuseffect.notify_give": "%s1 68 61 73 20 62 65 65 6e 20 61 70 70 6c 69 65 64 20 74 6f 20 79 6f 75 20 66 6f 72 %s2 68 61 73 20 62 65 65 6e 20 61 70 70 6c 69 65 64 20 74 6f 20 79 6f 75 20 66 6f 72",
+  "capability.statuseffect.notify_remove": "59 6f 75 20 6e 6f 20 6c 6f 6e 67 65 72 20 68 61 76 65 %s",
+  
+  "chance_of_precipretation.statuseffect.freeze.name": "46 72 65 65 7a 65"
+}}

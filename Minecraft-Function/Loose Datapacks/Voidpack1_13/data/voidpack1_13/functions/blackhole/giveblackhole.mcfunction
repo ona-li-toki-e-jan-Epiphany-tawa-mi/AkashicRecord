@@ -1,0 +1,1 @@
+give @p minecraft:armor_stand{display:{Name:"{\"translate\":\"Black Hole Generator\"}",Lore:["Place For Untold Destruction!"]},EntityTag:{NoGravity:1b,Invisible:1b,Marker:1b,Tags:["blackhole"],CustomName:"{\"text\":\"blackhole2\"}"}} 1

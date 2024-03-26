@@ -1,0 +1,18 @@
+name: MainBoi
+version: ${project.version}
+main: pleasepleasepleasepleaspleasdontoverwhelmyourself.mainboi.MainBoi
+api-version: 1.13
+authors: [Epiphany]
+description: Essential code for any server in existance ;)
+commands:
+  capabilities:
+    description: A command for micro-managing the capabilities system.
+    usage: "Usage: /<command> (assign|revoke|list|debug)"
+    permission: admin
+  setlocale:
+    description: Sets your locale to the given language, if it is loaded.
+    usage: "Usage: /<command> <languageName>"
+permissions:
+  admin:
+    description: Full control.
+    default: op

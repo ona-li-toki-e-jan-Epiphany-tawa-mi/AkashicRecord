@@ -1,0 +1,4 @@
+10 K$ = ""
+20 GET K$ : IF K$ = "" GOTO 20
+30 PRINT "KEY: ";ASC(K$)
+40 GOTO 10

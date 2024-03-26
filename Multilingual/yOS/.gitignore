@@ -1,0 +1,4 @@
+ytterbium/target/
+
+*.o
+*.bin

@@ -1,0 +1,40 @@
+<<
+	REVLIST OBJ-> 
+	-> length <<
+		240 SWAP / -> tempo <<
+			1 WHILE 1 ==
+			REPEAT
+				IF DUP TYPE 1 ==
+				THEN
+					DUP RE
+					SWAP IM tempo *
+					BEEP
+				ELSE
+					IF DUP TYPE 0 ==
+					THEN
+						tempo * WAIT
+					ELSE
+						IF DUP TYPE 5 ==
+						THEN
+							REVLIST OBJ-> 
+							-> tim len <<
+								1 tim
+								START 
+									len 1 - DUPN
+								NEXT
+							>>
+						ELSE
+							1 DROPN
+						END
+					END
+				END
+				IF DEPTH 0 >
+				THEN
+					1
+				ELSE 
+					0
+				END
+			END
+		>>
+	>>
+>>

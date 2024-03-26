@@ -1,0 +1,11 @@
+[Unit]
+Description=Начинает сервер Майнкрафта Realm Of Caek при включениии компьютера
+
+[Service]
+User=lotus
+ExecStart="/bin/screen" -dm -S realmOfCaek bash "/home/lotus/Realm Of Caek/skriptyBash/avtomachyeski_nachat_syervyer.sh"
+RemainAfterExit=yes
+TimeoutStartSec=0
+
+[Install]
+WantedBy=multi-user.target

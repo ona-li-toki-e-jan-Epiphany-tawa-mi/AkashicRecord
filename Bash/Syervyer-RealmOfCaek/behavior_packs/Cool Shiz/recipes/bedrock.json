@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.2",
+	
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "coolshiz:bedrock"
+		},
+		"tags": [ "crafting_table" ],
+		
+		"pattern": [
+			"SBS",
+			"SNS",
+			"SBS"
+		],
+		"key": {
+			"S": {
+				"item": "minecraft:stone"
+			},
+			"B": {
+				"item": "minecraft:bed"
+			},
+			"N": {
+				"item": "minecraft:netherite_block"
+			}
+		},
+		
+		"result": {
+			"item": "minecraft:bedrock",
+			"count": 8
+		}
+	}
+}
