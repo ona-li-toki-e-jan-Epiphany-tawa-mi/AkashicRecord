@@ -1,3 +1,0 @@
-[Cat program / screen editor.]
-
-+[;.]
