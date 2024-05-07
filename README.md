@@ -8,5 +8,5 @@ keeping.  Feel free to browse!
 
 Be aware that much of the code here is hot garbage and probably non-functional.
 
-Unless stated in the files in question, all code here falls under the MIT
-license located in the root directory of this project.
+All code here falls under the MIT license located in the root directory of this
+project unless stated otherwise.
