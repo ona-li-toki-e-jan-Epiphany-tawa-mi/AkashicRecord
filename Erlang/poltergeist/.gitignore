@@ -1,0 +1,6 @@
+ebin/
+doc/
+.dialyzer_plt
+erl_crash.dump
+
+flake.lock

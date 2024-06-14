@@ -1,0 +1,4 @@
+%% -*- erlang -*-
+%% @copyright 2024 ona-li-toki-e-jan-Epiphany-tawa-mi | MIT License
+
+{ "src/*", [ debug_info, { outdir, "ebin/" }, {i, "include/" } ] }.
