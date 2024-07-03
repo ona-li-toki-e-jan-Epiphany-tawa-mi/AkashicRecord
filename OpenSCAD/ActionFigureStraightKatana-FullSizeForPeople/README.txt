@@ -1,0 +1,1 @@
+Action Figure Straight Katana & Sheath but it's full size (for people, ~39in!) and sliced up for printing by jan_Epiphany on Thingiverse: https://www.thingiverse.com/thing:4903292

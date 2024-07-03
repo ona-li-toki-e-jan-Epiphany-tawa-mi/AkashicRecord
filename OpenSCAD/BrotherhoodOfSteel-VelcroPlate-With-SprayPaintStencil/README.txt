@@ -1,0 +1,1 @@
+Brotherhood of Steel Velcro Plate w/ Spray Paint Stencil by jan_Epiphany on Thingiverse: https://www.thingiverse.com/thing:4948842

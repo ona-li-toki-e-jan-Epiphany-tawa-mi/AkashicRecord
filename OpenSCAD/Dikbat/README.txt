@@ -1,0 +1,1 @@
+Дикбат, а он гинатский металлический ужас by jan_Epiphany on Thingiverse: https://www.thingiverse.com/thing:4980167
