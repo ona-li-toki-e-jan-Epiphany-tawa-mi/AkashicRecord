@@ -25,12 +25,13 @@
 # You can use the following command to build this/these derivation(s):
 #   nix-build release.nix -A <attribute>
 
-{ nixpkgs ? builtins.fetchTarball "https://github.com/NixOS/nixpkgs/tarball/24.05" }:
+{ nixpkgs ? builtins.fetchTarball "https://github.com/NixOS/nixpkgs/tarball/24.05"
+, src     ? ./.
+}:
 
 let pkgs = (import nixpkgs {});
 
     name = "akashic-record";
-    src  = ./.;
 in
 {
   # Makes tarballs of the source code.
