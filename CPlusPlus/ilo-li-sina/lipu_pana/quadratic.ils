@@ -1,0 +1,85 @@
+#!/usr/bin/env ilo_li_sina
+
+# MIT License
+#
+# Copyright (c) 2022 ona-li-toki-e-jan-Epiphany-tawa-mi
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Quadratic solver.
+    tokiELinja("Quadratic solver v5.54765895")
+    tokiELinja()
+
+    quadratic = kamaJo("Enter the equation you would like to solve (in the form ax^2+bx+c): ")
+    a = kamaJo("What is the multiple on x^2 (a) in " quadratic "? ")
+
+    niLaTawa(HasSolution "no" "yes" \
+            "Is " a " equal to 0? [yes/no] ")
+    tokiELinja()
+    tokiELinja("No solution")
+    tawa(ProgramEnd)
+HasSolution:
+
+    b = kamaJo("What is the multiple on x (b) in " quadratic "? ")
+    c = kamaJo("What is the constant (c) in " quadratic "? ")
+    discriminant = kamaJo(                            \
+            "What is (" kamaJo("What is (" b ")^2? ") \
+            ")-("                                     \
+            kamaJo("What is ("                        \
+                kamaJo("What is 4*(" a ")? ")         \
+                ")*(" c ")? ")                        \
+            ")? ")
+    divisor = kamaJo("What is 2*(" a ")? ")
+
+    niLaTawa(OneSolution "yes" "no"            \
+            "Is " discriminant " equal to 0? [yes/no] ")
+
+# 2 solution branch.
+    niLaTawa(NegativeDiscriminant "yes" "no"          \
+            "Is " discriminant " negative? [yes/no] ")
+    discriminant = kamaJo("What is the square root of " discriminant "? ")
+    tawa(PositiveDisciminant)
+NegativeDiscriminant:
+    discriminant = wan(                                                      \
+            "(" kamaJo("What is the square root of (" discriminant ")*-1? ") \
+            ")i")
+PositiveDisciminant:
+
+    positiveSolution = wan("(-(" b ")+(" discriminant "))/(" divisor ")")
+    negativeSolution = wan("(-(" b ")-(" discriminant "))/(" divisor ")")
+    niLaTawa(NoSimplificationTS "no" "yes" \
+            "Can " positiveSolution " and " negativeSolution " be simplified? [yes/no] ")
+    positiveSolution = kamaJo("What is the simplified form of " positiveSolution "? ")
+    negativeSolution = kamaJo("What is the simplified form of " negativeSolution "? ")
+NoSimplificationTS:
+    tokiELinja()
+    tokiELinja("The solutions to the equation " quadratic " are " positiveSolution " and " negativeSolution)
+
+    tawa(ProgramEnd)
+
+OneSolution:
+    solution = wan("-(" b ")/(" divisor ")")
+    niLaTawa(NoSimplificationOS "no" "yes"     \
+            "Can " solution " be simplified? [yes/no] ")
+    solution = kamaJo("What is the simplified form of " solution "? ")
+NoSimplificationOS:
+    tokiELinja()
+    tokiELinja("The solution to the equation " quadratic " is " solution)
+
+ProgramEnd:

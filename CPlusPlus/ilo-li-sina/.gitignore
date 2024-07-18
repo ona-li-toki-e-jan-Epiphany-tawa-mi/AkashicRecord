@@ -1,0 +1,9 @@
+/build/
+/.vscode/
+src/ante_toki/nimi_toki.hxx
+ilo_li_sina-test.ils
+CMakeCache.txt
+CMakeFiles/*
+Makefile
+cmake_install.cmake
+ilo_li_sina

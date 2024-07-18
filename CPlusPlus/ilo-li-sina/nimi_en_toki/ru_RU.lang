@@ -1,0 +1,98 @@
+# Справочные сообщения.
+ilo_CLI.nimi_lipu=НАЗЫВАНИЕ
+ilo_CLI.nimi_lipu.nimi=неструктурированный процедурный ориентированный на людей язык программирования, который работает только со строками, для начинающего домоседливого компьютера.)))
+ilo_CLI.nasin_kepeken=СИНТАКСИС
+ilo_CLI.sona=ОПИСАНИЕ
+ilo_CLI.sona.nimi=Интерпретатор для ilo li sina. ilo li sina - неструктурированный процедурный ориентированный на людей язык программирования, который работает только со строками.
+ilo_CLI.ilo_pilin=ПАРАМЕТРЫ
+ilo_CLI.ilo_pilin.toki_e_ijo=Отображать токены, созданные из программ.
+ilo_CLI.ilo_pilin.toki_e_kasi=Отображать абстрактные синтаксические деревья, созданные из программ.
+ilo_CLI.ilo_pilin.help=Показать справочное сообщение и завершить работу.
+ilo_CLI.ilo_pilin.version=Показать информацию о версии и завершить работу.
+ilo_CLI.ilo_pilin.lipu_wawa=ПРОГРАММЫ
+ilo_CLI.ilo_pilin.lipu_wawa.sona=Программы выполнить.
+ilo_CLI.jan_pali=АВТОРЫ
+ilo_CLI.ike=ОШИБКИ
+ilo_CLI.ike.ma_pi_toki_ike=Сообщите об ошибках в <https://github.com/ona-li-toki-e-jan-Epiphany-tawa-mi/ilo-li-sina/issues>.
+ilo_CLI.jo_lipu=ПРАВА
+ilo_CLI.jo_lipu.nimi=Copyright © 2022 ona-li-toki-e-jan-Epiphany-tawa-mi. License: MIT. Это свободное программное обеспечиние - вы можете его изменять и распространять так, как угодно. Смотрите полную лицензию в исходный или в <https://mit-license.org>. THIS SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND.
+ilo_CLI.ijo_sin=СМОТРИТЕ ТАКЖЕ
+ilo_CLI.ijo_sin.nimi_wawa=Исходный код - <https://github.com/ona-li-toki-e-jan-Epiphany-tawa-mi/ilo-li-sina>
+ilo_CLI.ijo_sin.nasin_kepeken=Документация - <https://github.com/ona-li-toki-e-jan-Epiphany-tawa-mi/ilo-li-sina/blob/master/lipu_pi_kama_sona/nasin_kepeken-ru_RU.md>
+
+
+# Сообщения для отображения токенов и абстрактных синтаксических деревьев.
+toki.nanpa_linja=Строка %d
+toki.li_jo_e_ala=Пусто...
+
+## Сообщения для отображения абстрактных синтаксических деревьев.
+toki.nimi_kasi.pana_lon_poki=ПРИСВАИВАНИЕ_ПЕРЕМЕННОЙ
+toki.nimi_kasi.kama_jo_tan_poki=ПОЛУЧЕНИЕ_ИЗ_ПЕРЕМЕННОЙ
+toki.nimi_kasi.poki_nimi=ПОЛУЧЕНИЕ_ИЗ_КОНСТАНТЫ
+toki.nimi_kasi.nimi_wawa=ФУНКЦИЯ
+toki.nimi_kasi.nimi_wawa_tawa=GOTO
+toki.nimi_kasi.pini=КОНЕЦ
+
+## Сообщения для отображения токенов.
+toki.ijo_kipisi.poki=ПЕРЕМЕННАЯ
+toki.ijo_kipisi.pana_lon_poki=ПРИСВАИВАНИЕ_ПЕРЕМЕННОЙ
+toki.ijo_kipisi.poki_nimi=СТРОКА
+toki.ijo_kipisi.nimi_wawa=ФУНКЦИЯ
+toki.ijo_kipisi.poki_pi_ijo_pi_nimi_wawa=РАЗДЕЛИТЕЛЬ_АРГУМЕНТОВ
+toki.ijo_kipisi.linja_sin=ПЕРЕХОД_СТРОКИ
+toki.ijo_kipisi.nimi_tawa_tawa=МЕТКА
+
+
+
+# Командые ошибки.
+ike.ilo_CLI.ilo_pilin.ilo_pi_sona_ala=Нераспознанный параметр «%s»
+ike.ilo_CLI.ilo_pilin.lipu_lawa_li_wile=Ожидались операнды, задающие файлы
+
+ike.ilo_CLI.o_lukin_e_sona_kepeken=По команде «ilo_li_sina --help» можно получить дополнительную информацию
+
+
+# Ошбки разбора.
+## Ошибки функций.
+ike.pali.nimi_wawa.tawa.nimi_tawa_tawa_li_wile=Неправильное имя метки\nОжидалось имя похоже на [a-zA-Z0-9_]
+ike.pali.nimi_wawa.tawa.nimi_tawa_mute_mute=Дубликат определения метки «%s»\nОригинальное определение в (%d, %d)
+ike.pali.nimi_wawa.tawa.nimi_tawa_pi_sona_ala=Переход на неопределенную метку «%s»
+ike.pali.nimi_wawa.nanpa_ijo_lili=Слишком мало аргументов для функции «%s»\nОжидалось(ись) %d
+ike.pali.nimi_wawa.nanpa_ijo_suli=Слишком много аргументов для функции «%s»\nОжидалось(ись) %d
+ike.pali.nimi_wawa.li_jo_ala_e_pini=Несовершенный вызов функции\nОжидалось «)»
+ike.pali.nimi_wawa.nimi_pi_sona_ala=Неопределенная функция «%s»
+
+## Ошибки переменных.
+ike.pali.poki_nanpa.nimi_poki_li_wile=Ожидалось имя переменной до «=»
+ike.pali.poki_nanpa.ijo_tawa_poki_li_wile=Ожидалось второе выражение после «=»
+ike.pali.poki_nanpa.ijo_ike_tawa_poki=Неправильное выражение после «=»\nНужно быть или возвращает какое-то значение
+
+
+# Ошибки лексического анализа.
+ike.kipisi.li_ken_ala_open_e_lipu=Не удалось открыть файл «%s»
+
+ike.kipisi.nimi_tawa.nimi_li_wile=Ожидалось имя метки до «:»
+ike.kipisi.nimi_tawa.li_ken_lon_open_linja_taso=Метки могут быть только в начале строки
+
+ike.kipisi.poki_nimi.nimi_pi_sitelen_nasa_pi_sona_ala=Неопределенный управляющий символ «\\%s»
+ike.kipisi.poki_nimi.li_jo_ala_e_pini=Несовершенная строка
+
+ike.kipisi.nimi_wawa.nimi_li_wile=Ожидалось имя функции до «(»
+
+
+# Ошибки времени выполнения.
+ike.lawa.poki_nimi.li_lukin_kama_jo_tan_poki_pi_sona_ala=Получение из неопределенной переменной «%s»
+
+ike.lawa.pini_lipu=Получил EOF при чтении ввода
+
+ike.lawa.tawa_ken.nimi_pi_lon_en_lon_ala_li_ken_ala_sama=Сообщения да и нет для функции «niLaTawa» не могут быть так же самые (сейчас - «%s»)
+
+ike.lawa.awen.nanpa_ala=Ожидалось целое число, но получилось «%s»
+ike.lawa.awen.nanpa_ike=Получилось целое число «%s» вне возможных значений
+
+ike.lawa.ala_e_ilo_pana.li_alasa_ala=alaEIloPana() не работает. Либо не удалось найти нужные библиотеки, либо что-то другое пошло не так. Ваша операционная система может быть несовместима (поддерживается на Windows и UNIX)
+
+
+# Общие ошибки.
+ike.sitelen_pi_wile_ala=Неопределенный токен «%s»
+
+ike.nimi=Ошибка

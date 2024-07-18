@@ -1,0 +1,52 @@
+#!/usr/bin/env ilo_li_sina
+
+# MIT License
+#
+# Copyright (c) 2022 ona-li-toki-e-jan-Epiphany-tawa-mi
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Get samrolled.
+# tan musi MGR:RV
+    tokiELinja("Memories broken\n"                                      \
+               "The truth goes unspoken\n"                              \
+               "I’ve even forgotten my name\n\n"                        \
+               "I don’t know the season\n"                              \
+               "Or what is the reason\n"                                \
+               "I’m standing here holding my blade\n\n"                 \
+               "A desolate place\n"                                     \
+               "Without any trace\n"                                    \
+               "It’s only the cold wind I feel\n\n"                     \
+               "It’s me that I spite\n"                                 \
+               "As I stand up and fight\n"                              \
+               "The only thing I know for real\n\n"                     \
+               "There will be blood-shed\n"                             \
+               "The man in the mirror nods his head\n\n"                \
+               "The only one left\n"                                    \
+               "Will ride upon the dragon’s back\n\n"                   \
+               "Because the mountains don’t give back what they take\n" \
+               "Oh no\n"                                                \
+               "There will be blood-shed\n"                             \
+               "It’s the only thing I’ve ever known\n\n"                \
+               "Losing my identity\n"                                   \
+               "Wondering have I gone insane\n"                         \
+               "To find the truth in front of me\n"                     \
+               "I must climb this mountain range\n"                     \
+               "Looking downward from this deadly height\n"             \
+               "And never realizing why I fight")
