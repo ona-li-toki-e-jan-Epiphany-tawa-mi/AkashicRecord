@@ -1,0 +1,36 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.35.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           ConwaysIvoryTower
+version:        0.1.0
+description:    Please see the README on GitHub at <https://github.com/ona-li-toki-e-jan-Epiphany-tawa-mi/Conways-Ivory-Tower/blob/master/README.md>
+homepage:       https://github.com/githubuser/ona-li-toki-e-jan-Epiphany-tawa-mi#readme
+bug-reports:    https://github.com/githubuser/ona-li-toki-e-jan-Epiphany-tawa-mi/issues
+author:         ona li toki e jan Epiphany tawa mi
+maintainer:     darklorddudeal.deaddear@gmail.com
+copyright:      2022 ona-li-toki-e-jan-Epiphany-tawa-mi
+license:        MIT
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/ona-li-toki-e-jan-Epiphany-tawa-mi
+
+executable ConwaysIvoryTower-exe
+  main-is: ConwaysIvoryTower.hs
+  other-modules:
+      Paths_ConwaysIvoryTower
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -main-is ConwaysIvoryTower
+  build-depends:
+      base >=4.7 && <5
+    , gloss >=1.13.1.1 && <14
+    , unordered-containers >=0.2.17.0 && <0.2.18
+  default-language: Haskell2010
