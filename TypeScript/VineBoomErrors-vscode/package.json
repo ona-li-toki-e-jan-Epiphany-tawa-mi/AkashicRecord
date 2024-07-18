@@ -1,0 +1,134 @@
+{
+  "name": "vineboomerrors",
+  "displayName": "VineBoomErrors",
+  "description": "Plays the Vine boom sound effect when your badly-written code generates errors",
+  "version": "1.1.0",
+  "publisher": "onalitokiejanEpiphanytawami",
+  "author": {
+    "name": "ona li toki e jan Epiphany tawa mi"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "icon": "images/icon.png",
+  "categories": [
+    "Other",
+    "Linters"
+  ],
+  "keywords": [
+    "Vine",
+    "vineboom",
+    "Vine boom",
+    "funny",
+    "sound",
+    "errors"
+  ],
+  "bugs": {
+    "url": "https://github.com/ona-li-toki-e-jan-Epiphany-tawa-mi/VineBoomErrors-vscode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ona-li-toki-e-jan-Epiphany-tawa-mi/VineBoomErrors-vscode.git"
+  },
+  "homepage": "https://github.com/ona-li-toki-e-jan-Epiphany-tawa-mi/VineBoomErrors-vscode",
+  "sponsor": {
+    "url": "https://github.com/sponsors/ona-li-toki-e-jan-Epiphany-tawa-mi"
+  },
+  "activationEvents": [
+    "onCommand:vineBoomErrors.playBoom",
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vineBoomErrors.playBoom",
+        "title": "Play the Vine boom sound effect",
+        "category": "VineBoomErrors"
+      }
+    ],
+    "configuration": {
+      "title": "VineBoomErrors",
+      "properties": {
+        "vineBoomErrors.playBoomOnError": {
+          "type": "boolean",
+          "default": true,
+          "description": "If true, plays the Vine boom sound effect when an error is produced by a linter or static analysis."
+        },
+        "vineBoomErrors.soundEffectLocation": {
+          "type": "string",
+          "default": "",
+          "description": "If left blank, uses the Vine boom sound stored in the extension directory. You can put a path to another sound file to change the sound played."
+        },
+        "vineBoomErrors.delay": {
+          "type": "number",
+          "default": 100,
+          "minimum": 0,
+          "description": "The time, in milliseconds, to space apart each Vine boom."
+        },
+        "vineBoomErrors.players": {
+          "type": "array",
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "description": "The command-line players to play the Vine boom effect with. Uses the first one found to be present, searching from first to last. If left blank, uses the player list supplied by player-sounder (https://www.npmjs.com/package/player-sounder). Must be compatible with MP3s."
+        },
+        "vineBoomErrors.playerOptions": {
+          "type": "object",
+          "default": {},
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "description": "Command-line options to supply to the players. Keys are the names of the players and must be the same as in vineBoomErrors.players. At a minimum, any options that close the player after playing and prevent it from opening any windows are required if that is not the default behavior. Uses the player options supplied by player-sounder (https://www.npmjs.com/package/player-sounder) by default. Any options supplied here will superceed those supplied by player-sounder."
+        },
+        "vineBoomErrors.minimumSeverity": {
+          "type": "string",
+          "enum": ["Error", "Warning", "Information", "Hint"],
+          "enumDescriptions": [
+            "Something not allowed by the rules of a language or other means.",
+            "Something suspicious but allowed.",
+            "Something to inform about but not a problem.",
+            "Something to hint to a better way of doing it, like proposing a refactoring."
+          ],
+          "default": "Error",
+          "description": "The minimum diagnostic severity level at which to play the Vine boom. Choosing an option also chooses all of the options before it."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.0.0",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.72.0",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "@vscode/test-electron": "^2.1.5",
+    "eslint": "^8.24.0",
+    "glob": "^8.0.3",
+    "mocha": "^10.0.0",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "player-sounder": "^1.0.0"
+  }
+}
