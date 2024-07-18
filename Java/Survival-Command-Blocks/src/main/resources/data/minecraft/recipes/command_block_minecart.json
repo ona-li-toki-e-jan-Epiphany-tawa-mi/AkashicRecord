@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "C",
+        "M"
+    ],
+    "key": {
+       "C": {
+            "tag": "srvvlcmmndblcks:command_blocks"
+       },
+       "M": {
+            "item": "minecraft:minecart"
+       }
+    },
+    "result": {
+        "item": "minecraft:command_block_minecart"
+    }
+}

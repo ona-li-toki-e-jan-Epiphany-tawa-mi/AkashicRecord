@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shaped",
+    "category": "redstone",
+    "group": "command_block",
+    "pattern": [
+        "GIG",
+        "IRI",
+        "GIG"
+    ],
+    "key": {
+       "G": {
+            "tag": "srvvlcmmndblcks:granite"
+       },
+       "I": {
+            "item": "minecraft:iron_ingot"
+       },
+       "R": {
+            "item": "minecraft:redstone_block"
+       }
+    },
+    "result": {
+        "item": "minecraft:command_block"
+    }
+}

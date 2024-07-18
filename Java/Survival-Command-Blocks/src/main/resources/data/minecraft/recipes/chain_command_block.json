@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shaped",
+    "category": "redstone",
+    "group": "command_block",
+    "pattern": [
+        "DID",
+        "IRI",
+        "DID"
+    ],
+    "key": {
+       "D": {
+            "tag": "srvvlcmmndblcks:diorite"
+       },
+       "I": {
+            "item": "minecraft:iron_ingot"
+       },
+       "R": {
+            "item": "minecraft:redstone_block"
+       }
+    },
+    "result": {
+        "item": "minecraft:chain_command_block"
+    }
+}
