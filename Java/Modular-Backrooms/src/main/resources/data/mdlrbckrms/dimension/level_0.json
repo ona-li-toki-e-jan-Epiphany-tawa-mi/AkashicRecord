@@ -1,0 +1,102 @@
+{
+    "type": "mdlrbckrms:level_0",
+    "generator": {
+        "type": "mdlrbckrms:multibiome_flat",
+        "flat_settings": {
+            "layers": [
+                {
+                    "height": 62,
+                    "block": "mdlrbckrms:unbreakable_moist_carpet"
+                },
+                {
+                    "height": 4,
+                    "block": "minecraft:void_air"
+                },
+                {
+                    "height": 62,
+                    "block": "mdlrbckrms:unbreakable_ceiling_tile"
+                }
+            ],
+            "minimum_y": 0,
+            "sea_level": 61
+        },
+        "noise_settings": "minecraft:overworld",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                {
+                    "biome": "mdlrbckrms:level_0/office_rooms",
+                    "parameters": {
+                        "temperature": 0.2,
+                        "humidity": 0.2,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "mdlrbckrms:level_0/dark_office_rooms",
+                    "parameters": {
+                        "temperature": 0.1,
+                        "humidity": 0.4,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0.2,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "mdlrbckrms:level_0/open_space",
+                    "parameters": {
+                        "temperature": 0.2,
+                        "humidity": 0.2,
+                        "continentalness": 0.1,
+                        "erosion": 0.5,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "mdlrbckrms:level_0/dark_open_space",
+                    "parameters": {
+                        "temperature": 0.1,
+                        "humidity": 0.4,
+                        "continentalness": 0.1,
+                        "erosion": 0.5,
+                        "weirdness": 0.3,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "mdlrbckrms:level_0/pillars",
+                    "parameters": {
+                        "temperature": 0.2,
+                        "humidity": 0.2,
+                        "continentalness": 0,
+                        "erosion": 0.1,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "mdlrbckrms:level_0/dark_pillars",
+                    "parameters": {
+                        "temperature": 0.1,
+                        "humidity": 0.4,
+                        "continentalness": 0,
+                        "erosion": 0.1,
+                        "weirdness": 0.2,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                }
+            ]
+        }
+    }
+}

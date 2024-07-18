@@ -1,0 +1,22 @@
+{
+    "feature": {
+        "type": "mdlrbckrms:chunk_wall",
+        "config": {
+            "blockID": "mdlrbckrms:unbreakable_yellowed_wallpaper",
+            "height": 4,
+            "wallChance": 0.9,
+            "openingChance": 0.5
+        }
+    },
+    "placement": [
+        {
+            "type": "height_range",
+            "height": {
+                "type": "constant",
+                "value": {
+                    "absolute": 62
+                }
+            }
+        }
+    ]
+}

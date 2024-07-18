@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "mdlrbckrms",
+  "version": "${version}",
+
+  "name": "Modular Backrooms",
+  "description": "Choose-your-experience-type Backrooms",
+  "authors": [
+    "ona li toki e jan Epiphany tawa mi"
+  ],
+  "contact": {
+    "homepage": "https://www.planetminecraft.com/mod/modular-backrooms-fabric-1-19-4/",
+    "sources": "https://github.com/ona-li-toki-e-jan-Epiphany-tawa-mi/Modular-Backrooms",
+    "issues": "https://github.com/ona-li-toki-e-jan-Epiphany-tawa-mi/Modular-Backrooms/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/mdlrbckrms/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.epiphany.mdlrbckrms.ModularBackrooms"
+    ],
+    "client": [
+      "net.epiphany.mdlrbckrms.ModularBackroomsClient"
+    ]
+  },
+  "mixins": [
+    "mdlrbckrms.mixins.json"
+  ],
+  "accessWidener": "mdlrbckrms.accesswidener",
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

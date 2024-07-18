@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "item": "mdlrbckrms:yellowed_wallpaper"
+    },
+    "result": "mdlrbckrms:yellowed_wallpaper_wall",
+    "count": 1
+}

@@ -1,0 +1,31 @@
+{
+    "feature": {
+        "type": "mdlrbckrms:walled_door",
+        "config": {
+            "doorBlockID": "mdlrbckrms:unbreakable_office_door",
+            "openChance": 0.05,
+            "canPlaceDoubleDoors": true
+        }
+    },
+    "placement": [
+        {
+            "type": "height_range",
+            "height": {
+                "type": "constant",
+                "value": {
+                    "absolute": 62
+                }
+            }
+        },
+        {
+            "type": "count",
+            "count": {
+                "type": "constant",
+                "value": 2
+            }
+        },
+        {
+            "type": "in_square"
+        }
+    ]
+}

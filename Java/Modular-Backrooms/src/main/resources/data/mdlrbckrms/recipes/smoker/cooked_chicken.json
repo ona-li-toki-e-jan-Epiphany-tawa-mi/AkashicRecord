@@ -1,0 +1,10 @@
+{
+    "type": "smoking",
+    "category": "food",
+    "ingredient": {
+        "item": "mdlrbckrms:chicken"
+    },
+    "result": "minecraft:cooked_chicken",
+    "experience": 2.0,
+    "cookingtime": 100
+}

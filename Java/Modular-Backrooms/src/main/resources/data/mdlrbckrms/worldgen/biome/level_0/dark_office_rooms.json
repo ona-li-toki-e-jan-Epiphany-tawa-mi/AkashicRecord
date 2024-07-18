@@ -1,0 +1,63 @@
+{
+    "has_precipitation": false,
+    "temperature": 0.4,
+    "temperature_modifier": "none",
+    "downfall": 0.4,
+    "effects": {
+        "fog_color": 0,
+        "sky_color": 0,
+        "water_color": 0,
+        "water_fog_color": 0,
+        "foliage_color": 0,
+        "grass_color": 0,
+        "grass_color_modifier": "none",
+        "ambient_sound": "mdlrbckrms:ambient.mdlrbckrms.maximum_hum_buzz",
+        "music": {
+            "sound": "mdlrbckrms:mdlrbckrms.null_sound",
+            "min_delay": 24000,
+            "max_delay": 24000,
+            "replace_current_music": true
+        },
+        "mood_sound": {
+            "sound": "mdlrbckrms:mood.mdlrbckrms.creepy_sounds",
+            "tick_delay": 3000,
+            "block_search_extent": 8,
+            "offset": 1.0
+        }
+    },
+    "carvers": {},
+    "features": [
+        [
+            "mdlrbckrms:level_0/chunk_wall",
+            "mdlrbckrms:level_0/divider_wall"
+        ],
+        [],
+        [
+            "mdlrbckrms:level_0/office_door",
+            "mdlrbckrms:level_0/exit_door"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+            "mdlrbckrms:level_0/disabled_fluorescent_lights",
+            "mdlrbckrms:level_0/random_torch"
+        ],
+        [],
+        [],
+        []
+    ],
+    "creature_spawn_probability": 0.0,
+    "spawners": {
+        "ambient": [
+            {
+                "type": "mdlrbckrms:hallucination",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ]
+    },
+    "spawn_costs": {}
+}

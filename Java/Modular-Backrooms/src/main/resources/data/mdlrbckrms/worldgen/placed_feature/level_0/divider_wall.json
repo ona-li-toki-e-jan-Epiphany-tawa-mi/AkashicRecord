@@ -1,0 +1,31 @@
+{
+    "feature": {
+        "type": "mdlrbckrms:divider_wall",
+        "config": {
+            "mainBlockID": "mdlrbckrms:unbreakable_yellowed_wallpaper",
+            "topBlockID": "mdlrbckrms:unbreakable_yellowed_wallpaper_slab",
+            "minHeight": 3,
+            "maxHeight": 4,
+            "minLength": 3,
+            "maxLength": 5
+        }
+    },
+    "placement": [
+        {
+            "type": "height_range",
+            "height": {
+                "type": "constant",
+                "value": {
+                    "absolute": 62
+                }
+            }
+        },
+        {
+            "type": "in_square"
+        },
+        {
+            "type": "rarity_filter",
+            "chance": 3
+        }
+    ]
+}

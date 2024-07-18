@@ -1,0 +1,112 @@
+{
+    "ambient.mdlrbckrms.maximum_hum_buzz": {
+        "subtitle": "subtitles.mdlrbckrms.maximum_hum_buzz",
+        "sounds": [
+            {
+                "name": "mdlrbckrms:maximum_hum_buzz",
+                "stream": true
+            }
+        ]
+    },
+    "block.mdlrbckrms.fluorescent_light.flicker": {
+        "subtitle": "subtitles.mdlrbckrms.fluorescent_flicker",
+        "sounds": [
+            "mdlrbckrms:fluorescent_flicker" 
+        ]
+    },
+    "mdlrbckrms.null_sound": {
+        "sounds": [
+            {
+                "name": "mdlrbckrms:null_sound",
+                "stream": true
+            }
+        ]
+    },
+    "block.mdlrbckrms.office_door.creak": {
+        "subtitle": "subtitles.mdlrbckrms.door_creak",
+        "sounds": [
+            "mdlrbckrms:door_creaks/creak3"
+        ]
+    },
+    "mood.mdlrbckrms.creepy_sounds": {
+        "sounds":[
+            {
+                "name": "mdlrbckrms:creepy_sounds/groan",
+                "weight": 99
+            },
+            {
+                "name": "mdlrbckrms:creepy_sounds/groan_uwu",
+                "weight": 1
+            },
+            {
+                "name": "mdlrbckrms:door_creaks/creak1",
+                "weight": 20
+            },
+            {
+                "name": "mdlrbckrms:door_creaks/creak2",
+                "weight": 20
+            },
+            {
+                "name": "mdlrbckrms:door_creaks/creak3",
+                "weight": 20
+            },
+            {
+                "name": "mdlrbckrms:door_creaks/creak4",
+                "weight": 20
+            },
+            {
+                "name": "mdlrbckrms:door_creaks/creak5",
+                "weight": 20
+            },
+            {
+                "name": "mdlrbckrms:creepy_sounds/exponential_hum_buzz",
+                "weight": 25,
+                "stream": true
+            },
+            {
+                "name": "mdlrbckrms:creepy_sounds/cries1",
+                "weight": 34
+            },
+            {
+                "name": "mdlrbckrms:creepy_sounds/cries2",
+                "weight": 33
+            },
+            {
+                "name": "mdlrbckrms:creepy_sounds/cries3",
+                "weight": 33
+            },
+            {
+                "name": "mdlrbckrms:creepy_sounds/whispers1",
+                "weight": 34
+            },
+            {
+                "name": "mdlrbckrms:creepy_sounds/whispers2",
+                "weight": 33
+            },
+            {
+                "name": "mdlrbckrms:creepy_sounds/whispers3",
+                "weight": 33
+            },
+            {
+                "name": "minecraft:block/sculk_shrieker/shriek1",
+                "weight": 20
+            },
+            {
+                "name": "minecraft:block/sculk_shrieker/shriek2",
+                "weight": 20
+            },
+            {
+                "name": "minecraft:block/sculk_shrieker/shriek3",
+                "weight": 20
+            },
+            {
+                "name": "minecraft:block/sculk_shrieker/shriek4",
+                "weight": 20
+            },
+            {
+                "name": "minecraft:block/sculk_shrieker/shriek5",
+                "weight": 20
+            }
+        ]
+    }
+}

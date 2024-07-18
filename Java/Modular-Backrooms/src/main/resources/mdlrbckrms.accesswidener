@@ -1,0 +1,4 @@
+accessWidener	v1	named
+
+# Needed to extend to create the MultibiomeFlatChunkGenerator.
+extendable  class    net/minecraft/world/gen/chunk/NoiseChunkGenerator

@@ -1,0 +1,28 @@
+{
+    "feature": {
+        "type": "mdlrbckrms:walled_door",
+        "config": {
+            "doorBlockID": "mdlrbckrms:interdimensional_exit_door",
+            "openChance": 0.0,
+            "canPlaceDoubleDoors": false
+        }
+    },
+    "placement": [
+        {
+            "type": "height_range",
+            "height": {
+                "type": "constant",
+                "value": {
+                    "absolute": 62
+                }
+            }
+        },
+        {
+            "type": "in_square"
+        },
+        {
+            "type": "rarity_filter",
+            "chance": 20
+        }
+    ]
+}

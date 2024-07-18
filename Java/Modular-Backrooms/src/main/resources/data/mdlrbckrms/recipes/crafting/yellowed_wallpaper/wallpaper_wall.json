@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "category": "building",
+    "group": "yellowed_wallpaper_wall",
+    "pattern": [
+        "WWW",
+        "WWW"
+    ],
+    "key": {
+        "W": {
+            "item": "mdlrbckrms:yellowed_wallpaper"
+        }
+    },
+    "result": {
+        "item": "mdlrbckrms:yellowed_wallpaper_wall",
+        "count": 6
+    }
+}

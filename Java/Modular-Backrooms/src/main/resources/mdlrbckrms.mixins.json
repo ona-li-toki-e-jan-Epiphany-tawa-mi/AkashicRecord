@@ -1,0 +1,36 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.epiphany.mdlrbckrms.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EnderEyeItemMixin",
+
+    "AbstractDecorationEntityMixin",
+    "ItemEntityMixin",
+    "AbstractFurnaceBlockEntityMixin",
+    "CampfireBlockEntityMixin",
+
+    "SpyglassItemInvoker",
+
+    "FireBlockMixin"
+  ],
+  "client": [
+    "DebugHudAccessor",
+    "DebugHudMixin",
+
+    "ModelPredicateProviderRegistryMixin",
+    
+    "ClientPlayNetworkHandlerMixin",
+
+    "MinecraftClientMixin",
+    "KeyBindingAccessor",
+    "MinecraftClientAccessor",
+
+    "TexturedModelDataAccessor"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

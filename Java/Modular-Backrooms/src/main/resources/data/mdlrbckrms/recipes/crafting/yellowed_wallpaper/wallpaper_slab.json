@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "category": "building",
+    "group": "yellowed_wallpaper_slab",
+    "pattern": [
+        "WWW"
+    ],
+    "key": {
+        "W": {
+            "item": "mdlrbckrms:yellowed_wallpaper"
+        }
+    },
+    "result": {
+        "item": "mdlrbckrms:yellowed_wallpaper_slab",
+        "count": 6
+    }
+}

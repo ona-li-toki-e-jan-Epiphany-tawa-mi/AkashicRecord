@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "category": "building",
+    "group": "yellowed_wallpaper_stairs",
+    "pattern": [
+        "W  ",
+        "WW ",
+        "WWW"
+    ],
+    "key": {
+        "W": {
+            "item": "mdlrbckrms:yellowed_wallpaper"
+        }
+    },
+    "result": {
+        "item": "mdlrbckrms:yellowed_wallpaper_stairs",
+        "count": 4
+    }
+}
