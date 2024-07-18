@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "glwchckns:install/try_install",
+        "glwchckns:on_quarter_second"
+    ]
+}
