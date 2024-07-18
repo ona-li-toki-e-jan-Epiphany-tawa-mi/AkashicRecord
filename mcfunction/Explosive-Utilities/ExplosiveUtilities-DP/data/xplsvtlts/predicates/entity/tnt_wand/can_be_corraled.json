@@ -1,0 +1,108 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type": "minecraft:player"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:any_of",
+            "terms": [
+                {
+                    "condition": "minecraft:value_check",
+                    "value": {
+                        "type": "score",
+                        "target": {
+                            "type": "fixed",
+                            "name": "disable_tnt_wand_corraling_restrictions"
+                        },
+                        "score": "xplsvtlts"
+                    },
+                    "range": 1
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:tnt"
+                    }
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:tnt_minecart"
+                    }
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:creeper"
+                    }
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:fireball"
+                    }
+                },
+                {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "score",
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "installed"
+                                },
+                                "score": "pgsthtgbmnthnght"
+                            },
+                            "range": 1
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{Tags:[\"pgsthtgbmnthnght_explosive\"]}"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "score",
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "installed"
+                                },
+                                "score": "incndrybs"
+                            },
+                            "range": 1
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:bee"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

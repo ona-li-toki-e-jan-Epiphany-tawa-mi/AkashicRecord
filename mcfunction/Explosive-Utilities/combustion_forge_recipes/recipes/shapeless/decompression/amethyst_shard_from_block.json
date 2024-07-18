@@ -1,0 +1,14 @@
+{
+    "$schema": "../../../recipe_schema.json",
+    "type": "combustion_forge_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:amethyst_block"
+        }
+    ],
+    "result": {
+        "type": "item",
+        "item": "minecraft:amethyst_shard",
+        "count": 4
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "on_craft_composite_leggings": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "xplsvtlts:smithing/composite_armor/leggings"
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:composite_armor/on_craft_leggings"
+    }
+}

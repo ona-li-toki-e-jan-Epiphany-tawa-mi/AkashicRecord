@@ -1,0 +1,14 @@
+{
+    "$schema": "../../../recipe_schema.json",
+    "type": "combustion_forge_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glowstone"
+        }
+    ],
+    "result": {
+        "type": "item",
+        "item": "minecraft:glowstone_dust",
+        "count": 4
+    }
+}

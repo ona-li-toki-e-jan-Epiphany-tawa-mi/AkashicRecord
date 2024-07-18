@@ -1,0 +1,19 @@
+{
+    "values": [
+        "minecraft:sugar_cane",
+        "minecraft:moss_carpet",
+        "#minecraft:leaves",
+        "#minecraft:tall_flowers",
+        "minecraft:tall_grass",
+        "minecraft:large_fern",
+        "minecraft:weeping_vines",
+        "minecraft:twisting_vines",
+        "minecraft:vine",
+        "minecraft:cave_vines",
+        "minecraft:big_dripleaf",
+        "minecraft:small_dripleaf",
+        "minecraft:hanging_roots",
+        "minecraft:frogspawn",
+        "minecraft:seagrass"
+    ]
+}

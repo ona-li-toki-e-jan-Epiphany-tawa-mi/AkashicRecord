@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "on_entity_hurt_player_no_explosion": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": false,
+                    "source_entity": {},
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "is_explosion",
+                                "expected": false
+                            }
+                        ]
+                    }                    
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:on_entity_hurt_player_no_explosion"
+    }
+}

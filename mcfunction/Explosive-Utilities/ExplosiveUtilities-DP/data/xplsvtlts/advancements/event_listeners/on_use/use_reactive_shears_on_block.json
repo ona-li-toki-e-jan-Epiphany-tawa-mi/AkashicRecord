@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "on_use_reactive_shears_on_block": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "xplsvtlts:entity/reactive_plating/is_holding_reactive_shears"
+                    }
+                ],
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "tag": "xplsvtlts:sheared"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:reactive_plating/on_use_reactive_item"
+    }
+}

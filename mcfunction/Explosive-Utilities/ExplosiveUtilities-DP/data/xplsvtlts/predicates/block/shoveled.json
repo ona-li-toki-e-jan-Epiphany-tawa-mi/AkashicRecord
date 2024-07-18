@@ -1,0 +1,24 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dirt_path",
+            "properties": {}
+        },
+        {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:campfire",
+            "properties": {
+                "lit": "false"
+            }
+        },
+        {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:soul_campfire",
+            "properties": {
+                "lit": "false"
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../recipe_schema.json",
+    "type": "combustion_forge_shaped",
+    "pattern": [
+        "QQ",
+        "QQ"
+    ],
+    "key": {
+        "Q": {
+            "item": "minecraft:quartz"
+        }
+    },
+    "result": {
+        "type": "item",
+        "item": "minecraft:quartz_block"
+    }
+}

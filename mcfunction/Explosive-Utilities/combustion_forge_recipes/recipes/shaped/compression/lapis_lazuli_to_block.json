@@ -1,0 +1,18 @@
+{
+    "$schema": "../../../recipe_schema.json",
+    "type": "combustion_forge_shaped",
+    "pattern": [
+        "LLL",
+        "LLL",
+        "LLL"
+    ],
+    "key": {
+        "L": {
+            "item": "minecraft:lapis_lazuli"
+        }
+    },
+    "result": {
+        "type": "item",
+        "item": "minecraft:lapis_block"
+    }
+}

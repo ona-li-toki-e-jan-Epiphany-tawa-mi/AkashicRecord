@@ -1,0 +1,18 @@
+{
+    "$schema": "../../../recipe_schema.json",
+    "type": "combustion_forge_shaped",
+    "pattern": [
+        "CCC",
+        "CCC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:coal"
+        }
+    },
+    "result": {
+        "type": "item",
+        "item": "minecraft:coal_block"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "on_use_reactive_shovel_on_block": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "xplsvtlts:entity/reactive_plating/is_holding_reactive_shovel"
+                    }
+                ],
+                "location": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "xplsvtlts:block/shoveled"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:reactive_plating/on_use_reactive_item"
+    }
+}

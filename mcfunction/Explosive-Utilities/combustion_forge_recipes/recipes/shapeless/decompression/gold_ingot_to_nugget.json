@@ -1,0 +1,14 @@
+{
+    "$schema": "../../../recipe_schema.json",
+    "type": "combustion_forge_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:gold_ingot"
+        }
+    ],
+    "result": {
+        "type": "item",
+        "item": "minecraft:gold_nugget",
+        "count": 9
+    }
+}

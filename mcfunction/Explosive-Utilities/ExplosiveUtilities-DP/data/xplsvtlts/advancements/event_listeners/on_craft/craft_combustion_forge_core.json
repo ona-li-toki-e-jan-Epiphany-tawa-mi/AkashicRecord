@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "on_craft_reactive_plating": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "xplsvtlts:crafting/combustion_forge_core"
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:combustion_forge/on_craft"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "values": [
+        "#minecraft:small_flowers",
+        "minecraft:oak_sapling",
+        "minecraft:spruce_sapling",
+        "minecraft:birch_sapling",
+        "minecraft:jungle_sapling",
+        "minecraft:acacia_sapling",
+        "minecraft:dark_oak_sapling",
+        "minecraft:cherry_sapling",
+        "minecraft:mangrove_propagule",
+        "minecraft:azalea",
+        "minecraft:flowering_azalea",
+        "minecraft:fern",
+        "minecraft:grass",
+        "minecraft:brown_mushroom",
+        "minecraft:red_mushroom",
+        "minecraft:warped_fungus",
+        "minecraft:crimson_fungus",
+        "minecraft:warped_roots",
+        "minecraft:crimson_roots",
+        "minecraft:nether_sprouts"
+    ]
+}

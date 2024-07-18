@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "on_interact_with_entity": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "xplsvtlts:entity/is_holding_tnt_on_a_stick"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:tnt_on_a_stick/on_hit"
+    }
+}

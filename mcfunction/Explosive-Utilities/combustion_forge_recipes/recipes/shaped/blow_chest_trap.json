@@ -1,0 +1,28 @@
+{
+    "$schema": "../../recipe_schema.json",
+    "type": "combustion_forge_shaped",
+    "pattern": [
+        "GFG",
+        " T ",
+        "GSG"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:gunpowder"
+        },
+        "T": {
+            "item": "minecraft:tripwire_hook"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "F": {
+            "item": "minecraft:fire_charge"
+        }
+    },
+    "result": {
+        "type": "item",
+        "item": "minecraft:enchanted_book",
+        "nbt": "{display:{Name:'{\"text\":\"Blow Chest Trap\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Explosive Utilities\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:14881210}"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:reference",
+                "name": "xplsvtlts:entity/reactive_plating/is_holding_reactive_item"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "tag": "xplsvtlts:reactiveables"
+                    }
+                }
+            }
+        }
+    ]
+}

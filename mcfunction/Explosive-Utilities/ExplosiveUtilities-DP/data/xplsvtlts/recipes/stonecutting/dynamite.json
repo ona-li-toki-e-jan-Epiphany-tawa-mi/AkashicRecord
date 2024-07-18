@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "item": "minecraft:tnt"
+    },
+    "result": "minecraft:knowledge_book",
+    "count": 1
+}

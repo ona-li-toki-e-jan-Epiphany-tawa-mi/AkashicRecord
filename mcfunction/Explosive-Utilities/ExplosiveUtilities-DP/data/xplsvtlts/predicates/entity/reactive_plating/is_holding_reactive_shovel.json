@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "nbt": "{xplsvtlts:{Reactive:1b}}",
+                "tag": "minecraft:shovels"
+            }
+        }
+    }
+}

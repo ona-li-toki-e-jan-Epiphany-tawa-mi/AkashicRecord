@@ -1,0 +1,19 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{Item:{tag:{CustomModelData:7106215}}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{Item:{tag:{Reactive:1b,CustomModelData:7106216}}}"
+            }
+        }
+    ]
+}

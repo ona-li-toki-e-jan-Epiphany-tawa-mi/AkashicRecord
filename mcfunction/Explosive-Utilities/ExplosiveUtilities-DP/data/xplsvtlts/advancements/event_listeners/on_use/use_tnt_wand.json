@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "on_interact_with_entity_with_tnt_wand": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:stone_pickaxe"
+                    ],
+                    "nbt": "{CustomModelData:7106215}"
+                }
+            }
+        },
+        "on_interact_with_entity_with_error": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:stone_pickaxe"
+                    ],
+                    "nbt": "{xplsvtlts:{Reactive:1b},CustomModelData:7106216}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "on_interact_with_entity_with_tnt_wand",
+            "on_interact_with_entity_with_error"
+        ]
+    ],
+    "rewards": {
+        "function": "xplsvtlts:tnt_wand/on_use"
+    }
+}

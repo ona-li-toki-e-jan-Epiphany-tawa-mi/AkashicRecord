@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "on_interact_with_entity_with_dynamite": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "xplsvtlts:entity/dynamite/can_light_dynamite"
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:armor_stand"
+                    ],
+                    "nbt": "{CustomModelData:15704532}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:dynamite/on_use"
+    }
+}

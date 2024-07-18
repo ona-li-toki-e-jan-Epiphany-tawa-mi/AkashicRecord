@@ -1,0 +1,15 @@
+{
+    "type": "smithing_transform",
+    "base": {
+        "item": "minecraft:iron_boots"
+    },
+    "addition": {
+        "item": "minecraft:leather_boots"
+    },
+    "template": {
+        "item": "minecraft:brick"
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

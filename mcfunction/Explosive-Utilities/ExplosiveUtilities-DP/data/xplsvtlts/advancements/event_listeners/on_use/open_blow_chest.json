@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "on_open_blow_chest": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:reference",
+                            "name": "xplsvtlts:entity/can_open_blowchest_safely"
+                        }
+                    }
+                ],
+                "location": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "xplsvtlts:block/is_blow_chest"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:blow_chest/on_open"
+    }
+}

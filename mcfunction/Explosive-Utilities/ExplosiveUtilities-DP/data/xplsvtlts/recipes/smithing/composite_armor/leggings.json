@@ -1,0 +1,15 @@
+{
+    "type": "smithing_transform",
+    "base": {
+        "item": "minecraft:iron_leggings"
+    },
+    "addition": {
+        "item": "minecraft:leather_leggings"
+    },
+    "template": {
+        "item": "minecraft:brick"
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

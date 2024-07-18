@@ -1,0 +1,36 @@
+{
+    "criteria": {
+        "on_hit_with_reactive_item": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "xplsvtlts:entity/reactive_plating/is_holding_reactive_melee_weapon"
+                    }
+                ],
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "is_explosion",
+                                "expected": false
+                            }
+                        ]
+                    }                    
+                },
+                "entity": {
+                    "distance": {
+                        "absolute": {
+                            "min": 0.0,
+                            "max": 6.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:reactive_plating/on_use_reactive_item"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt": "{Tags:[\"xplsvtlts_dynamite\"]}",
+        "type": "minecraft:armor_stand"
+    }
+}

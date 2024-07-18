@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "minecraft:block/obsidian",
+        "side": "xplsvtlts:block/combustion_forge_core_side"
+    },
+    "display": {
+		"head": {
+            "translation": [0, -14.6, 0],
+			"scale": [2.29, 2.29, 2.29]
+		}
+	}
+}

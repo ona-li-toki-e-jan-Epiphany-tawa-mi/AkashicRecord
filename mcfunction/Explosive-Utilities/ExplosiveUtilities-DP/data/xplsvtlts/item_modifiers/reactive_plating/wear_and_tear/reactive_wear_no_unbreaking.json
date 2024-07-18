@@ -1,0 +1,24 @@
+{
+    "function": "minecraft:set_damage",
+    "conditions": [
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                    "enchantments": [
+                        {
+                            "enchantment": "minecraft:unbreaking",
+                            "levels": {
+                                "min": 0,
+                                "max": 32767
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "damage": -0.0125,
+    "add": true
+}

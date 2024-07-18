@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "on_hurt_entity_with_tnt_wand": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "xplsvtlts:entity/tnt_wand/is_holding_tnt_wand"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:tnt_wand/on_hit"
+    }
+}

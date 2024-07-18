@@ -1,0 +1,211 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Combustion Forge Recipe",
+    "description": "A recipe for the combustion forge multiblock",
+    "type": "object",
+    "properties": {
+        "type": {
+            "type": "string",
+            "enum": [ "combustion_forge_shaped", "combustion_forge_shapeless"]
+        },
+        "result": {
+            "$ref": "#/$defs/recipe_result_or_recipe_result_list"
+        }
+    },
+    "required": [ "type", "result" ],
+    "allOf": [
+        {
+            "if": {
+                "properties": {
+                    "type": {"const": "combustion_forge_shaped"}
+                }
+            },
+            "then": {
+                "properties": {
+                    "pattern": {
+                        "type": "array",
+                        "minItems": 1,
+                        "maxItems": 3,
+                        "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 3
+                        }
+                    },
+                    "key": {
+                        "type": "object",
+                        "patternProperties": {
+                            "^\\S$": {
+                                "$ref": "#/$defs/item_or_item_list_without_count"
+                            }
+                        },
+                        "additionalProperties": false
+                    }
+                },
+                "required": [ "pattern", "key" ]
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "type": {"const": "combustion_forge_shapeless"}
+                }
+            },
+            "then": {
+                "properties": {
+                    "ingredients": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                            "$ref": "#/$defs/item_or_item_list_with_count"
+                        }
+                    }
+                },
+                "required": [ "ingredients" ]
+            }
+        }
+    ],
+
+    "$defs": {
+        "resource_id": {
+            "type": "string",
+            "pattern": "^[-.0-9A-Z_a-z]+:[-./0-9A-Z_a-z]+$"
+        },
+        "resource_id_or_resource_id_list": {
+            "anyOf": [
+                {
+                    "type": "array",
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "items": {
+                        "$ref": "#/$defs/resource_id"
+                    }
+                },
+                {
+                    "$ref": "#/$defs/resource_id"
+                }
+            ]
+        },
+        "item_without_count": {
+            "type": "object",
+            "properties": {
+                "item": {
+                    "$ref": "#/$defs/resource_id_or_resource_id_list"
+                },
+                "nbt": {
+                    "type": "string"
+                }
+            },
+            "required": [ "item" ]
+        },
+        "item_or_item_list_without_count": {
+            "anyOf": [
+                {
+                    "type": "array",
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "items": {
+                        "$ref": "#/$defs/item_without_count"
+                    }
+                },
+                {
+                    "$ref": "#/$defs/item_without_count"
+                }
+            ]
+        },
+        "item_with_count": {
+            "type": "object",
+            "properties": {
+                "item": {
+                    "$ref": "#/$defs/resource_id_or_resource_id_list"
+                },
+                "count": {
+                    "type": "integer",
+                    "minimum": 1
+                },
+                "nbt": {
+                    "type": "string"
+                }
+            },
+            "required": [ "item" ]
+        },
+        "item_or_item_list_with_count": {
+            "anyOf": [
+                {
+                    "type": "array",
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "items": {
+                        "$ref": "#/$defs/item_with_count"
+                    }
+                },
+                {
+                    "$ref": "#/$defs/item_with_count"
+                }
+            ]
+        },
+        "recipe_result": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": [ "item", "loot_table" ]
+                }
+            },
+            "required": [ "type" ],
+            "allOf": [
+                {
+                    "if": {
+                        "properties": {
+                            "type": { "const": "item"}
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "item": {
+                                "$ref": "#/$defs/resource_id"
+                            },
+                            "count": {
+                                "type": "integer",
+                                "minimum": 1
+                            },
+                            "nbt": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [ "item" ]
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "type": { "const": "loot_table"}
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "loot": {
+                                "$ref": "#/$defs/resource_id"
+                            }
+                        },
+                        "required": [ "loot" ]
+                    }
+                }
+            ]
+        },
+        "recipe_result_or_recipe_result_list": {
+            "anyOf": [
+                {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                        "$ref": "#/$defs/recipe_result"
+                    }
+                },
+                {
+                    "$ref": "#/$defs/recipe_result"
+                }
+            ]
+        }
+    }
+}

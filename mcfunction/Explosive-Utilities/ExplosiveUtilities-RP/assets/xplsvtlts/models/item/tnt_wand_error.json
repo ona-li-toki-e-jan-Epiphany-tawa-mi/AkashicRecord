@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"particle": "xplsvtlts:item/tnt_wand_error",
+		"layer0": "xplsvtlts:item/tnt_wand_error"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 55],
+			"translation": [0, 6, 2.5],
+			"scale": [2, 2, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -55],
+			"translation": [0, 6, 2.5],
+			"scale": [2, 2, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [-104, 90, 104],
+			"translation": [0, 2.5, -1],
+			"scale": [2, 2, 0.85]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-104, -90, -104],
+			"translation": [0, 2.5, -1],
+			"scale": [2, 2, 0.85]
+		},
+		"ground": {
+			"translation": [0, 6, 0],
+			"scale": [1.7, 1.7, 0.85]
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "on_place_dynamite": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "xplsvtlts:entity/dynamite/is_holding_dynamite"
+                    }
+                ],
+                "location": []
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:dynamite/on_place"
+    }
+}

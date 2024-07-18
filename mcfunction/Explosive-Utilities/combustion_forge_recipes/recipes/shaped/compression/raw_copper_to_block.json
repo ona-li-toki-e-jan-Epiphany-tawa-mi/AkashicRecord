@@ -1,0 +1,18 @@
+{
+    "$schema": "../../../recipe_schema.json",
+    "type": "combustion_forge_shaped",
+    "pattern": [
+        "RRR",
+        "RRR",
+        "RRR"  
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:raw_copper"
+        }
+    },
+    "result": {
+        "type": "item",
+        "item": "minecraft:raw_copper_block"
+    }
+}

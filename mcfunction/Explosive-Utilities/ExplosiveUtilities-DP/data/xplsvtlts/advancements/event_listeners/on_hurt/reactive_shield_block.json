@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "on_reactive_shield_block": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "xplsvtlts:entity/reactive_plating/is_holding_reactive_shield"
+                    }
+                ],
+                "damage": {
+                    "blocked": true,
+                    "source_entity": {},
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "is_explosion",
+                                "expected": false
+                            }
+                        ]
+                    }                    
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:reactive_plating/on_reactive_shield_block"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "on_craft_composite_boots": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "xplsvtlts:smithing/composite_armor/boots"
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:composite_armor/on_craft_boots"
+    }
+}

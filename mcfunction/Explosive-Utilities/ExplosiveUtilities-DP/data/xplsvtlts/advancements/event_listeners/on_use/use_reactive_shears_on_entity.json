@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "use_reactive_shears_on_entity": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:shears"
+                    ],
+                    "nbt": "{xplsvtlts:{Reactive:1b}}"
+                },
+                "entity": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "xplsvtlts:entity/is_shearable_not_sheep"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:reactive_plating/on_use_reactive_item"
+    }
+}

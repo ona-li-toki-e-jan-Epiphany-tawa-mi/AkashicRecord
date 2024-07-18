@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "on_hit_with_thrown_reactive_trident": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "nbt": "{Trident:{tag:{xplsvtlts:{Reactive:1b}}}}",
+                            "type": "minecraft:trident"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:reactive_plating/trident/on_thrown_hit"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "on_till_with_reactive_hoe": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "xplsvtlts:entity/reactive_plating/is_holding_reactive_hoe"
+                    }
+                ],
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "tag": "xplsvtlts:hoed"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:reactive_plating/on_use_reactive_item"
+    }
+}

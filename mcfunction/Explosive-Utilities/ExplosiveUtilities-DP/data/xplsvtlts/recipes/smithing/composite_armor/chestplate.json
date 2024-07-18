@@ -1,0 +1,15 @@
+{
+    "type": "smithing_transform",
+    "base": {
+        "item": "minecraft:iron_chestplate"
+    },
+    "addition": {
+        "item": "minecraft:leather_chestplate"
+    },
+    "template": {
+        "item": "minecraft:brick"
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

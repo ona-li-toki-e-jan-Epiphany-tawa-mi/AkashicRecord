@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "xplsvtlts:item/reactive_plating"
+	},
+	"gui_light": "front"
+}

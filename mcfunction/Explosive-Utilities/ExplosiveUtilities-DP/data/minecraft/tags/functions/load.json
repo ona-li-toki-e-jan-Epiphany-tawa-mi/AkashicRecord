@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "xplsvtlts:install/try_install",
+        "xplsvtlts:on_every_second",
+        "xplsvtlts:on_every_ten_seconds"
+    ]
+}

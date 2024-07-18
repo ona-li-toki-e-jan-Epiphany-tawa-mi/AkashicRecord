@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "error_invalid_error_invalid_error_invalid": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:stone_pickaxe"
+                    ],
+                    "nbt": "{xplsvtlts:{Reactive:1b},CustomModelData:7106216}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:reactive_plating/on_use_reactive_item"
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:value_check",
+            "value": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "context",
+                    "target": "this"
+                },
+                "score": "xplsvtlts_click_detector_uuid_memory_0"
+            },
+            "range": {
+                "min": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "fixed",
+                        "name": "_uuid0"
+                    },
+                    "score": "xplsvtlts"
+                },
+                "max": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "fixed",
+                        "name": "_uuid0"
+                    },
+                    "score": "xplsvtlts"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:value_check",
+            "value": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "context",
+                    "target": "this"
+                },
+                "score": "xplsvtlts_click_detector_uuid_memory_1"
+            },
+            "range": {
+                "min": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "fixed",
+                        "name": "_uuid1"
+                    },
+                    "score": "xplsvtlts"
+                },
+                "max": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "fixed",
+                        "name": "_uuid1"
+                    },
+                    "score": "xplsvtlts"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:value_check",
+            "value": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "context",
+                    "target": "this"
+                },
+                "score": "xplsvtlts_click_detector_uuid_memory_2"
+            },
+            "range": {
+                "min": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "fixed",
+                        "name": "_uuid2"
+                    },
+                    "score": "xplsvtlts"
+                },
+                "max": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "fixed",
+                        "name": "_uuid2"
+                    },
+                    "score": "xplsvtlts"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:value_check",
+            "value": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "context",
+                    "target": "this"
+                },
+                "score": "xplsvtlts_click_detector_uuid_memory_3"
+            },
+            "range": {
+                "min": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "fixed",
+                        "name": "_uuid3"
+                    },
+                    "score": "xplsvtlts"
+                },
+                "max": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "fixed",
+                        "name": "_uuid3"
+                    },
+                    "score": "xplsvtlts"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "$schema": "../../../recipe_schema.json",
+    "type": "combustion_forge_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:raw_copper_block"
+        }
+    ],
+    "result": {
+        "type": "item",
+        "item": "minecraft:raw_copper",
+        "count": 9
+    }
+}

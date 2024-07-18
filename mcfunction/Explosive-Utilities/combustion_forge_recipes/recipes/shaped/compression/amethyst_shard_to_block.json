@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../recipe_schema.json",
+    "type": "combustion_forge_shaped",
+    "pattern": [
+        "AA",
+        "AA"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:amethyst_shard"
+        }
+    },
+    "result": {
+        "type": "item",
+        "item": "minecraft:amethyst_block"
+    }
+}

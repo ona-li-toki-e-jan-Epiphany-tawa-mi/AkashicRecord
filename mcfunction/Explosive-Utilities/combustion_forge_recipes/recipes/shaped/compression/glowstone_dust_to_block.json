@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../recipe_schema.json",
+    "type": "combustion_forge_shaped",
+    "pattern": [
+        "GG",
+        "GG"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:glowstone_dust"
+        }
+    },
+    "result": {
+        "type": "item",
+        "item": "minecraft:glowstone"
+    }
+}

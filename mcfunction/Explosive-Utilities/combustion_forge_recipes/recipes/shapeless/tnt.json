@@ -1,0 +1,18 @@
+{
+    "$schema": "../../recipe_schema.json",
+    "type": "combustion_forge_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:sand",
+            "count": 2
+        },
+        {
+            "item": "minecraft:gunpowder",
+            "count": 2
+        }
+    ],
+    "result": {
+        "type": "item",
+        "item": "minecraft:tnt"
+    }
+}

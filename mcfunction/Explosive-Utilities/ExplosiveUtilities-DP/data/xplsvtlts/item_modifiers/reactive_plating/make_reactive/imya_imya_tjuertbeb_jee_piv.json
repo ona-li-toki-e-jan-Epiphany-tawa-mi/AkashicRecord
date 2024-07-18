@@ -1,0 +1,10 @@
+{
+    "function": "minecraft:set_name",
+    "name": {
+        "text": "??dnaW tnT??",
+        "obfuscated": true,
+        "italic": false,
+        "bold": true,
+        "color": "red"
+    }
+}

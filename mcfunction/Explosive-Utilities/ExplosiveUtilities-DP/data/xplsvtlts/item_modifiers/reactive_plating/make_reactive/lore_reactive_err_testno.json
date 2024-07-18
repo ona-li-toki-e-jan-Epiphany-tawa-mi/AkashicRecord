@@ -1,0 +1,35 @@
+{
+    "function": "minecraft:set_lore",
+    "lore": [
+        {
+            "text": "!!!REACTIVE!!!",
+            "italic": false,
+            "bold": true,
+            "color": "gold"
+        },
+        {
+            "text": "ma ali suli li moli",
+            "bold": true,
+            "obfuscated": true,
+            "color": "purple"
+        },
+        {
+            "text": "You weren't supposed to do that...",
+            "bold": true,
+            "color": "purple"
+        },
+        {
+            "text": "ma ali sin li utala tawa kama lon li ken ala",
+            "bold": true,
+            "obfuscated": true,
+            "color": "purple"
+        },
+        {
+            "text": "tenpo ni li tenpo monsuta",
+            "bold": true,
+            "obfuscated": true,
+            "color": "purple"
+        }
+    ],
+    "replace": false
+}

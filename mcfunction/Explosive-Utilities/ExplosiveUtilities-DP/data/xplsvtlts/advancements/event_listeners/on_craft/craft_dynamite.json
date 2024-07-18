@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "on_craft_dynamite": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "xplsvtlts:stonecutting/dynamite"
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:dynamite/on_craft"
+    }
+}

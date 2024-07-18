@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../recipe_schema.json",
+    "type": "combustion_forge_shaped",
+    "pattern": [
+        "BB",
+        "BB" 
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:brick"
+        }
+    },
+    "result": {
+        "type": "item",
+        "item": "minecraft:bricks"
+    }
+}

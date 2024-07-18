@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "on_craft_composite_chestplate": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "xplsvtlts:smithing/composite_armor/chestplate"
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplsvtlts:composite_armor/on_craft_chestplate"
+    }
+}

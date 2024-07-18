@@ -1,0 +1,25 @@
+{
+    "$schema": "../../recipe_schema.json",
+    "type": "combustion_forge_shaped",
+    "pattern": [
+        " ST",
+        " DS",
+        "S  "
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:stick"
+        },
+        "T": {
+            "item": "minecraft:tnt"
+        },
+        "D": {
+            "item": "minecraft:totem_of_undying"
+        }
+    },
+    "result": {
+        "type": "item",
+        "item": "minecraft:stone_pickaxe",
+        "nbt": "{CustomModelData:7106215,display:{Name:'{\"text\":\"Tnt Wand\",\"italic\":false,\"color\":\"yellow\"}',Lore:['{\"text\":\"Explosive Utilities\",\"italic\":false,\"color\":\"blue\"}']},Unbreakable:true}"
+    }
+}

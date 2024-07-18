@@ -1,0 +1,13 @@
+{
+    "$schema": "../../../recipe_schema.json",
+    "type": "combustion_forge_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:gravel"
+        }
+    ],
+    "result": {
+        "type": "item",
+        "item": "minecraft:sand"
+    }
+}

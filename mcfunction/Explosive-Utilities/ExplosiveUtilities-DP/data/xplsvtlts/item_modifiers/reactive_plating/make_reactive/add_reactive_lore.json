@@ -1,0 +1,11 @@
+{
+    "function": "minecraft:set_lore",
+    "lore": [
+        {
+            "text": "Reactive",
+            "italic": false,
+            "color": "red"
+        }
+    ],
+    "replace": false
+}

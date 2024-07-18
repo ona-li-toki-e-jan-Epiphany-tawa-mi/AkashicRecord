@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "xplsvtlts:block/pistol_kiln_core"
+    },
+    "display": {
+		"head": {
+            "translation": [0, -14.6, 0],
+			"scale": [2.29, 2.29, 2.29]
+		}
+	}
+}

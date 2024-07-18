@@ -1,0 +1,13 @@
+{
+    "$schema": "../../../recipe_schema.json",
+    "type": "combustion_forge_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bone"
+        }
+    ],
+    "result": {
+        "type": "loot_table",
+        "loot": "xplsvtlts:combustion_forge/pulverize_bone"
+    }
+}

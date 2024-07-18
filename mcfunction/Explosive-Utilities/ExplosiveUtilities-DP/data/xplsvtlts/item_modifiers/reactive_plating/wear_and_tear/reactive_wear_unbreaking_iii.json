@@ -1,0 +1,18 @@
+{
+    "function": "minecraft:set_damage",
+    "conditions": [
+        {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+                "enchantments": [
+                    {
+                        "enchantment": "minecraft:unbreaking",
+                        "levels": 3
+                    }
+                ]
+            }
+        }
+    ],
+    "damage": -0.00015625,
+    "add": true
+}

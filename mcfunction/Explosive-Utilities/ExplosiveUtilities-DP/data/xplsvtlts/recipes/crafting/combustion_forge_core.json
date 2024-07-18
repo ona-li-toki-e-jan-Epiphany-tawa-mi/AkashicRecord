@@ -1,0 +1,26 @@
+{
+    "type": "crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "OPO",
+        "RAR",
+        "OPO"
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:piston"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        },
+        "A": {
+            "item": "minecraft:anvil"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}
