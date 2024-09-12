@@ -1,0 +1,30 @@
+{
+    "enabled":     1,
+    "hidden":      false,
+    "description": "Project jobsets specification",
+
+    "nixexprinput": "hydra",
+    "nixexprpath":  "jobsets.nix",
+
+    "checkinterval":    86400,
+    "schedulingshares": 5,
+    "keepnr":           1,
+
+    "enableemail":   false,
+    "emailoverride": "",
+
+    "inputs": {
+        "nixpkgs": {
+            "type":  "git",
+            "value": "/srv/git/nixpkgs.git nixos-unstable"
+        },
+        "hydra": {
+            "type":  "git",
+            "value": "/srv/git/hydra-projects.git master"
+        },
+        "src" : {
+            "type":  "string",
+            "value": "/srv/git/cowsAyPL.git master"
+        }
+    }
+}
